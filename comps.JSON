@@ -13,7 +13,11 @@
         "avgPlace": "4.16",
         "pickRate": "0.82",
         "winRate": "15.2%",
-        "Top4Rate": "56.7%"
+        "Top4Rate": "56.7%",
+        "carryChamp1": "Ahri",
+        "carryChamp2": "Blitzcrank",
+        "carryChamp3": "Ekko",
+        "carryChamp4": "Mordekaiser"
     },
     {
         "compName": "Big Shot",
@@ -29,7 +33,11 @@
         "avgPlace": "4.10",
         "pickRate": "0.41",
         "winRate": "20.6%",
-        "Top4Rate": "55.6%"
+        "Top4Rate": "55.6%",
+        "carryChamp1": "Ezreal",
+        "carryChamp2": "Sett",
+        "carryChamp3": "Jhin",
+        "carryChamp4": "Illaoi"
     },
     {
         "compName": "K/DA",
@@ -44,7 +52,11 @@
         "avgPlace": "4.21",
         "pickRate": "0.77",
         "winRate": "11.7%",
-        "Top4Rate": "56.5%"
+        "Top4Rate": "56.5%",
+        "carryChamp1": "Ahri",
+        "carryChamp2": "Akali",
+        "carryChamp3": "Neeko",
+        "carryChamp4": "Ekko"
     },
     {
         "compName": "Punk",
@@ -59,7 +71,11 @@
         "avgPlace": "4.24",
         "pickRate": "0.34",
         "winRate": "9.5%",
-        "Top4Rate": "56.2%"
+        "Top4Rate": "56.2%",
+        "carryChamp1": "Jinx",
+        "carryChamp2": "Pantheon",
+        "carryChamp3": "Twitch",
+        "carryChamp4": "Vi"
     },
     {
         "compName": "Country",
@@ -74,7 +90,11 @@
         "avgPlace": "4.30",
         "pickRate": "0.40",
         "winRate": "11.0%",
-        "Top4Rate": "54.1%"
+        "Top4Rate": "54.1%",
+        "carryChamp1": "Samira",
+        "carryChamp2": "Urgot",
+        "carryChamp3": "Vex",
+        "carryChamp4": "Amumu"
     },
     {
         "compName": "True Damage",
@@ -89,7 +109,11 @@
         "avgPlace": "4.34",
         "pickRate": "0.46",
         "winRate": "14.1%",
-        "Top4Rate": "53.1%"
+        "Top4Rate": "53.1%",
+        "carryChamp1": "Senna",
+        "carryChamp2": "Ekko",
+        "carryChamp3": "Akali",
+        "carryChamp4": "Qiyana"
     },
     {
         "compName": "EDM",
@@ -104,7 +128,11 @@
         "avgPlace": "4.34",
         "pickRate": "0.14",
         "winRate": "14.8%",
-        "Top4Rate": "52.6%"
+        "Top4Rate": "52.6%",
+        "carryChamp1": "Zed",
+        "carryChamp2": "Jax",
+        "carryChamp3": "Lux",
+        "carryChamp4": "Qiyana"
     },
     {
         "compName": "Jazz",
@@ -119,7 +147,11 @@
         "avgPlace": "4.45",
         "pickRate": "0.27",
         "winRate": "11.0%",
-        "Top4Rate": "51.9%"
+        "Top4Rate": "51.9%",
+        "carryChamp1": "Miss Fortune",
+        "carryChamp2": "Neeko",
+        "carryChamp3": "Ekko",
+        "carryChamp4": "Bard"
     },
     {
         "compName": "Pentakill",
@@ -134,7 +166,11 @@
         "avgPlace": "4.56",
         "pickRate": "0.51",
         "winRate": "11.4%",
-        "Top4Rate": "49.0%"
+        "Top4Rate": "49.0%",
+        "carryChamp1": "Karthus",
+        "carryChamp2": "Mordekaiser",
+        "carryChamp3": "Viego",
+        "carryChamp4": "Akali"
     },
     {
         "compName": "Edgelord",

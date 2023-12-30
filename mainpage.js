@@ -58,19 +58,23 @@ document.addEventListener("DOMContentLoaded", function () {
                 statsContainer.appendChild(pickRateDiv);
                 statsContainer.appendChild(winRateDiv);
                 statsContainer.appendChild(top4RateDiv);
-                //Carry Container
-                const carryContainer = document.createElement("div");
-                carryContainer.classList.add("carry-container");
+                //More Info Container
+                const moreInfoContainer = document.createElement("div");
+                moreInfoContainer.classList.add("more-info-container");
+                //Text Container
+                const carryChampsTextDiv = document.createElement("div");
+                carryChampsTextDiv.classList.add("carry-champs-text");
+                carryChampsTextDiv.textContent = "Carry Champs";
                 //Button
-                const carryDropdownBtn = document.createElement("button");
-                carryDropdownBtn.classList.add("carry-dropdown-btn");
-                carryDropdownBtn.textContent = "Carry Champions";
+                const moreInfoBtn = document.createElement("button");
+                moreInfoBtn.classList.add("more-info-btn");
+                moreInfoBtn.textContent = "More Info";
                 //Hidden
-                const carryDropdownContent = document.createElement("div");
-                carryDropdownContent.classList.add("carry-dropdown-content", "hidden");
-                carryDropdownBtn.addEventListener("click", function () {
+                const moreInfoContent = document.createElement("div");
+                moreInfoContent.classList.add("more-info-content", "hidden");
+                moreInfoBtn.addEventListener("click", function () {
                     // Toggle the "hidden" class on carryDropdownContent
-                    carryDropdownContent.classList.add("hidden");
+                    moreInfoContent.classList.toggle("hidden");
                 });
                 //Champions List
                 const carryChampsListUl = document.createElement("ul");
@@ -99,14 +103,15 @@ document.addEventListener("DOMContentLoaded", function () {
                         carryChampsListUl.appendChild(champLi);
                     }
                 }
-                carryContainer.appendChild(carryDropdownBtn);   
-                carryContainer.appendChild(carryDropdownContent);
-                carryContainer.appendChild(carryChampsListUl);
+                moreInfoContainer.appendChild(moreInfoBtn);   
+                moreInfoContent.appendChild(carryChampsTextDiv);
+                moreInfoContent.appendChild(carryChampsListUl);
+                moreInfoContainer.appendChild(moreInfoContent);
                 //Append Comps
                 compContainer.appendChild(compNameDiv);
                 compContainer.appendChild(champsListUl);
                 compContainer.appendChild(statsContainer);
-                compContainer.appendChild(carryContainer);
+                compContainer.appendChild(moreInfoContainer);
                 //Append Comps to Main Container
                 document.getElementById("main-container").appendChild(compContainer);
             });
@@ -123,12 +128,12 @@ document.addEventListener("DOMContentLoaded", function () {
     //Text data inserted into the popup
     const infoData = {
         About: {
-            gradient: 'linear-gradient(to right, #ff9900, #ff0066)',
-            text: `The top 10 performing compositions from the last 2 days are being displayed.
-            The statistics are pulled from games played in Platinum and above, with all Masters+ games being accounted for.
-            Our information is pulled from MetaTFT which utilizes Riot's API to analyse match histories and determine perfomance.
-            Each composition's statistics are time weighted, thus more recent data impacts each statistic more than previous data.
-            This ensures the page reflects meta shifts relatively quickly.`
+            gradient: 'linear-gradient(to right, #ff9900, #ff0066)',    
+            text: `TFT Tool displays the top 10 performing comps from the last 2 days. 
+            Our statistics are pulled from games played in Platinum+, with all Masters+ games accounted for.  
+            TFT Tool sources stats and comps from MetaTFT which utilizes Riot’s API combined with Clustering Method to determine comp performance. 
+            Each comp’s stats are time-weighted, thus more recent data impacts each stat more than previous data. 
+            The comps being displayed reflected meta-shifts relatively quickly while avoiding survivorship bias.`
         }
     };
     //Show popup

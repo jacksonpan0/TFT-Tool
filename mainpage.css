@@ -140,6 +140,27 @@ body {
 #close-popup {
     border-radius: 8px;
     border: none;
+    font-family: "Jost"; 
+}
+
+.more-info-container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more-info-btn {
+    margin-bottom: 10px;
     font-family: "Jost";
-    
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+}
+
+.carry-champs-text {
+    text-align: center; /* Center the text horizontally */
+    font-family: "Jost";
+    font-size: 15px; /* Adjust the font size as needed */
 }
