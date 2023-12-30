@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 compNameDiv.textContent = comp.compName;
                 const champsListUl = document.createElement("ul");
                 champsListUl.classList.add("champs-list", "horizontal");
-                //Loop to add images to each respective champion and append to container
+                //Loop to add images and names to each respective champion and append to container
                 for (let i = 1; i <= 9; i++) {
                     const champName = comp[`champ${i}`];
                     //If statement in case a comp contains < 9 champions
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         champsListUl.appendChild(champLi);
                     }
                 }
-                // Statistics Container
+                //Statistics Container
                 const statsContainer = document.createElement("div");
                 statsContainer.classList.add("stats-container", "horizontal");
                 //Average Place
@@ -58,10 +58,55 @@ document.addEventListener("DOMContentLoaded", function () {
                 statsContainer.appendChild(pickRateDiv);
                 statsContainer.appendChild(winRateDiv);
                 statsContainer.appendChild(top4RateDiv);
+                //Carry Container
+                const carryContainer = document.createElement("div");
+                carryContainer.classList.add("carry-container");
+                //Button
+                const carryDropdownBtn = document.createElement("button");
+                carryDropdownBtn.classList.add("carry-dropdown-btn");
+                carryDropdownBtn.textContent = "Carry Champions";
+                //Hidden
+                const carryDropdownContent = document.createElement("div");
+                carryDropdownContent.classList.add("carry-dropdown-content", "hidden");
+                carryDropdownBtn.addEventListener("click", function () {
+                    // Toggle the "hidden" class on carryDropdownContent
+                    carryDropdownContent.classList.add("hidden");
+                });
+                //Champions List
+                const carryChampsListUl = document.createElement("ul");
+                carryChampsListUl.classList.add("champs-list", "horizontal");
+                //Loop to add images and names to each respective champion and append to container
+                for (let i = 1; i <= 4; i++) {
+                    const carryChampName = comp[`carryChamp${i}`];
+                    //If statement in case a comp contains < 4 champions
+                    if (carryChampName) {
+                        const champLi = document.createElement("li");
+
+                        const championContainer = document.createElement("div");
+                        championContainer.classList.add("champion-container");
+
+                        const champImg = document.createElement("img");
+                        champImg.src = `./champs/${carryChampName.toLowerCase()}.avif`;
+                        champImg.alt = carryChampName;
+
+                        const champNameDiv = document.createElement("div");
+                        champNameDiv.classList.add("champion-name");
+                        champNameDiv.textContent = carryChampName;
+
+                        championContainer.appendChild(champImg);
+                        championContainer.appendChild(champNameDiv);
+                        champLi.appendChild(championContainer);
+                        carryChampsListUl.appendChild(champLi);
+                    }
+                }
+                carryContainer.appendChild(carryDropdownBtn);   
+                carryContainer.appendChild(carryDropdownContent);
+                carryContainer.appendChild(carryChampsListUl);
                 //Append Comps
                 compContainer.appendChild(compNameDiv);
                 compContainer.appendChild(champsListUl);
                 compContainer.appendChild(statsContainer);
+                compContainer.appendChild(carryContainer);
                 //Append Comps to Main Container
                 document.getElementById("main-container").appendChild(compContainer);
             });
@@ -106,4 +151,3 @@ document.addEventListener("DOMContentLoaded", function () {
         popupBox.classList.add("hidden");
     }
 });
-

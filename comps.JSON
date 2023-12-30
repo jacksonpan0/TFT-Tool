@@ -149,6 +149,10 @@
         "avgPlace": "4.62",
         "pickRate": "0.36",
         "winRate": "11.1%",
-        "Top4Rate": "48.0%"
-    }
+        "Top4Rate": "48.0%",
+        "carryChamp1": "Riven",
+        "carryChamp2": "Yasuo",
+        "carryChamp3": "Viego",
+        "carryChamp4": "Yone"
+     }
 ]
