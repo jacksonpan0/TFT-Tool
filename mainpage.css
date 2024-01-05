@@ -164,3 +164,13 @@ body {
     font-family: "Jost";
     font-size: 15px; /* Adjust the font size as needed */
 }
+
+.items-list.horizontal {
+    display: flex;
+}
+
+.items-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

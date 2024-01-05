@@ -15,29 +15,25 @@ document.addEventListener("DOMContentLoaded", function () {
                 const champsListUl = document.createElement("ul");
                 champsListUl.classList.add("champs-list", "horizontal");
                 //Loop to add images and names to each respective champion and append to container
-                for (let i = 1; i <= 9; i++) {
-                    const champName = comp[`champ${i}`];
-                    //If statement in case a comp contains < 9 champions
-                    if (champName) {
-                        const champLi = document.createElement("li");
+                comp.champs.forEach(champName => {
+                    const champLi = document.createElement("li");
 
-                        const championContainer = document.createElement("div");
-                        championContainer.classList.add("champion-container");
+                    const championContainer = document.createElement("div");
+                    championContainer.classList.add("champion-container");
 
-                        const champImg = document.createElement("img");
-                        champImg.src = `./champs/${champName.toLowerCase()}.avif`;
-                        champImg.alt = champName;
+                    const champImg = document.createElement("img");
+                    champImg.src = `./champs/${champName.toLowerCase()}.avif`;
+                    champImg.alt = champName;
 
-                        const champNameDiv = document.createElement("div");
-                        champNameDiv.classList.add("champion-name");
-                        champNameDiv.textContent = champName;
+                    const champNameDiv = document.createElement("div");
+                    champNameDiv.classList.add("champion-name");
+                    champNameDiv.textContent = champName;
 
-                        championContainer.appendChild(champImg);
-                        championContainer.appendChild(champNameDiv);
-                        champLi.appendChild(championContainer);
-                        champsListUl.appendChild(champLi);
-                    }
-                }
+                    championContainer.appendChild(champImg);
+                    championContainer.appendChild(champNameDiv);
+                    champLi.appendChild(championContainer);
+                    champsListUl.appendChild(champLi);
+                });
                 //Statistics Container
                 const statsContainer = document.createElement("div");
                 statsContainer.classList.add("stats-container", "horizontal");
@@ -80,29 +76,47 @@ document.addEventListener("DOMContentLoaded", function () {
                 const carryChampsListUl = document.createElement("ul");
                 carryChampsListUl.classList.add("champs-list", "horizontal");
                 //Loop to add images and names to each respective champion and append to container
-                for (let i = 1; i <= 4; i++) {
-                    const carryChampName = comp[`carryChamp${i}`];
-                    //If statement in case a comp contains < 4 champions
-                    if (carryChampName) {
-                        const champLi = document.createElement("li");
+                comp.carryChamps.forEach(carryChamp => {
+                    const champLi = document.createElement("li");
+                    //Div creation
+                    const championContainer = document.createElement("div");
+                    championContainer.classList.add("champion-container");
+                    //Name and Img containers
+                    const champImg = document.createElement("img");
+                    champImg.src = `./champs/${carryChamp.name.toLowerCase()}.avif`;
+                    champImg.alt = carryChamp.name;
+                    const champNameDiv = document.createElement("div");
+                    champNameDiv.classList.add("champion-name");
+                    champNameDiv.textContent = carryChamp.name;
+                    //Append           
+                    championContainer.appendChild(champImg);
+                    championContainer.appendChild(champNameDiv);         
+                    // Check if the carryChamp has items
+                    // Check if the carryChamp has items
+if (carryChamp.items && carryChamp.items.length > 0) {
+    const itemsList = document.createElement("ul");
+    itemsList.classList.add("items-list", "horizontal"); // Added "horizontal" class
 
-                        const championContainer = document.createElement("div");
-                        championContainer.classList.add("champion-container");
+    carryChamp.items.forEach(item => {
+        const itemLi = document.createElement("li");
+        itemLi.classList.add("item"); // Added "item" class for styling
 
-                        const champImg = document.createElement("img");
-                        champImg.src = `./champs/${carryChampName.toLowerCase()}.avif`;
-                        champImg.alt = carryChampName;
+        const itemImg = document.createElement("img");
+        itemImg.src = `${item.image}`;
+        itemImg.alt = item.name;
 
-                        const champNameDiv = document.createElement("div");
-                        champNameDiv.classList.add("champion-name");
-                        champNameDiv.textContent = carryChampName;
+        itemLi.appendChild(itemImg);
+        itemsList.appendChild(itemLi);
+    });
 
-                        championContainer.appendChild(champImg);
-                        championContainer.appendChild(champNameDiv);
-                        champLi.appendChild(championContainer);
-                        carryChampsListUl.appendChild(champLi);
-                    }
-                }
+    championContainer.appendChild(itemsList);
+}
+
+                
+                    champLi.appendChild(championContainer);
+                    carryChampsListUl.appendChild(champLi);
+                });
+                //Append More Info elements
                 moreInfoContainer.appendChild(moreInfoBtn);   
                 moreInfoContent.appendChild(carryChampsTextDiv);
                 moreInfoContent.appendChild(carryChampsListUl);

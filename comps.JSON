@@ -1,194 +1,200 @@
 [
     {
         "compName": "Sentinel Spellweavers",
-        "champ1": "Lillia",
-        "champ2": "Garen",
-        "champ3": "Seraphine",
-        "champ4": "Ekko",
-        "champ5": "Lulu",
-        "champ6": "Mordekaiser",
-        "champ7": "Ahri",
-        "champ8": "Blitzcrank",
-        "champ9": "Sona",
+        "champs": [
+          "Lillia", "Garen", "Seraphine", "Ekko",
+          "Lulu", "Mordekaiser", "Ahri", "Blitzcrank", "Sona"
+        ],
         "avgPlace": "4.15",
         "pickRate": "0.86",
         "winRate": "15.2%",
         "Top4Rate": "57.0%",
-        "carryChamp1": "Ahri",
-        "carryChamp2": "Blitzcrank",
-        "carryChamp3": "Ekko",
-        "carryChamp4": "Mordekaiser"
-    },
-    {
+        "carryChamps": [
+          { "name": "Ahri" },
+          { "name": "Blitzcrank" },
+          { "name": "Ekko" },
+          { "name": "Mordekaiser" }
+        ]
+      },
+      {
         "compName": "Big Shot",
-        "champ1": "Bard",
-        "champ2": "Miss Fortune",
-        "champ3": "Sett",
-        "champ4": "Ezreal",
-        "champ5": "Thresh",
-        "champ6": "Illaoi",
-        "champ7": "Jhin",
-        "champ8": "Yorick",
-        "champ9": "Ziggs",
+        "champs": [
+          "Bard", "Miss Fortune", "Sett", "Ezreal",
+          "Thresh", "Illaoi", "Jhin", "Yorick", "Ziggs"
+        ],
         "avgPlace": "4.20",
         "pickRate": "0.26",
         "winRate": "16.4%",
         "Top4Rate": "55.6%",
-        "carryChamp1": "Ezreal",
-        "carryChamp2": "Sett",
-        "carryChamp3": "Jhin",
-        "carryChamp4": "Illaoi"
-    },
-    {
+        "carryChamps": [
+          { "name": "Ezreal" },
+          { "name": "Sett" },
+          { "name": "Jhin" },
+          { "name": "Illaoi" }
+        ]
+      },
+      {
         "compName": "K/DA",
-        "champ1": "Kennen",
-        "champ2": "Lillia",
-        "champ3": "Kai'Sa",
-        "champ4": "Seraphine",
-        "champ5": "Ekko",
-        "champ6": "Neeko",
-        "champ7": "Ahri",
-        "champ8": "Akali",
+        "champs": [
+          "Kennen", "Lillia", "Kai'Sa", "Seraphine",
+          "Ekko", "Neeko", "Ahri", "Akali"
+        ],
         "avgPlace": "4.21",
         "pickRate": "0.72",
         "winRate": "11.8%",
         "Top4Rate": "56.5%",
-        "carryChamp1": "Ahri",
-        "carryChamp2": "Akali",
-        "carryChamp3": "Neeko",
-        "carryChamp4": "Ekko"
-    },
-    {
+        "carryChamps": [
+          { "name": "Ahri" },
+          { "name": "Akali" },
+          { "name": "Neeko" },
+          { "name": "Ekko" }
+        ]
+      },
+      {
         "compName": "Punk",
-        "champ1": "Jinx",
-        "champ2": "Vi",
-        "champ3": "Pantheon",
-        "champ4": "Twitch",
-        "champ5": "Amumu",
-        "champ6": "Neeko",
-        "champ7": "Vex",
-        "champ8": "Thresh",
+        "champs": [
+          "Jinx", "Vi", "Pantheon", "Twitch",
+          "Amumu", "Neeko", "Vex", "Thresh"
+        ],
         "avgPlace": "4.25",
         "pickRate": "0.33",
         "winRate": "9.4%",
         "Top4Rate": "56.1%",
-        "carryChamp1": "Jinx",
-        "carryChamp2": "Pantheon",
-        "carryChamp3": "Twitch",
-        "carryChamp4": "Vi"
-    },
-    {
+        "carryChamps": [
+          { "name": "Jinx" },
+          { "name": "Pantheon" },
+          { "name": "Twitch" },
+          { "name": "Vi" }
+        ]
+      },
+      {
         "compName": "Country",
-        "champ1": "Tahm Kench",
-        "champ2": "Amumu",
-        "champ3": "Samira",
-        "champ4": "Sett",
-        "champ5": "Urgot",
-        "champ6": "Vex",
-        "champ7": "Thresh",
-        "champ8": "Illaoi",
+        "champs": [
+          "Tahm Kench", "Amumu", "Samira", "Sett",
+          "Urgot", "Vex", "Thresh", "Illaoi"
+        ],
         "avgPlace": "4.31",
         "pickRate": "0.39",
         "winRate": "10.9%",
         "Top4Rate": "54.2%",
-        "carryChamp1": "Samira",
-        "carryChamp2": "Urgot",
-        "carryChamp3": "Vex",
-        "carryChamp4": "Amumu"
-    },
-    {
+        "carryChamps": [
+          { "name": "Samira" },
+          { "name": "Urgot" },
+          { "name": "Vex" },
+          { "name": "Amumu" }
+        ]
+      },
+      {
         "compName": "True Damage",
-        "champ1": "Kennen",
-        "champ2": "Lillia",
-        "champ3": "Aphelios",
-        "champ4": "Senna",
-        "champ5": "Ekko",
-        "champ6": "Neeko",
-        "champ7": "Akali",
-        "champ8": "Qiyana",
+        "champs": [
+          "Kennen", "Lillia", "Aphelios", "Senna",
+          "Ekko", "Neeko", "Akali", "Qiyana"
+        ],
         "avgPlace": "4.35",
         "pickRate": "0.47",
         "winRate": "14.0%",
         "Top4Rate": "52.8%",
-        "carryChamp1": "Senna",
-        "carryChamp2": "Ekko",
-        "carryChamp3": "Akali",
-        "carryChamp4": "Qiyana"
-    },
-    {
+        "carryChamps": [
+          { "name": "Senna" },
+          { "name": "Ekko" },
+          { "name": "Akali" },
+          { "name": "Qiyana" }
+        ]
+      },
+      {
         "compName": "EDM",
-        "champ1": "Evelynn",
-        "champ2": "Jax",
-        "champ3": "Katarina",
-        "champ4": "Lux",
-        "champ5": "Yone",
-        "champ6": "Zac",
-        "champ7": "Zed",
-        "champ8": "Qiyana",
+        "champs": [
+          "Evelynn", "Jax", "Katarina", "Lux",
+          "Yone", "Zac", "Zed", "Qiyana"
+        ],
         "avgPlace": "4.34",
         "pickRate": "0.14",
         "winRate": "14.6%",
         "Top4Rate": "52.8%",
-        "carryChamp1": "Zed",
-        "carryChamp2": "Jax",
-        "carryChamp3": "Lux",
-        "carryChamp4": "Qiyana"
-    },
-    {
+        "carryChamps": [
+          { "name": "Zed" },
+          { "name": "Jax" },
+          { "name": "Lux" },
+          { "name": "Qiyana" }
+        ]
+      },
+      {
         "compName": "Jazz",
-        "champ1": "Kennen",
-        "champ2": "Lillia",
-        "champ3": "Bard",
-        "champ4": "Kai'Sa",
-        "champ5": "Ekko",
-        "champ6": "Miss Fortune",
-        "champ7": "Neeko",
-        "champ8": "Lucian",
+        "champs": [
+          "Kennen", "Lillia", "Bard", "Kai'Sa",
+          "Ekko", "Miss Fortune", "Neeko", "Lucian"
+        ],
         "avgPlace": "4.43",
         "pickRate": "0.26",
         "winRate": "10.9%",
         "Top4Rate": "52.2%",
-        "carryChamp1": "Miss Fortune",
-        "carryChamp2": "Neeko",
-        "carryChamp3": "Ekko",
-        "carryChamp4": "Bard"
-    },
-    {
+        "carryChamps": [
+          { "name": "Miss Fortune" },
+          { "name": "Neeko" },
+          { "name": "Ekko" },
+          { "name": "Bard" }
+        ]
+      },
+      {
         "compName": "Pentakill",
-        "champ1": "Lillia",
-        "champ2": "Gnar",
-        "champ3": "Mordekaiser",
-        "champ4": "Neeko",
-        "champ5": "Akali",
-        "champ6": "Karthus",
-        "champ7": "Viego",
-        "champ8": "Yorick",
+        "champs": [
+          "Lillia", "Gnar", "Mordekaiser", "Neeko",
+          "Akali", "Karthus", "Viego", "Yorick"
+        ],
         "avgPlace": "4.54",
         "pickRate": "0.48",
         "winRate": "11.5%",
         "Top4Rate": "49.3%",
-        "carryChamp1": "Karthus",
-        "carryChamp2": "Mordekaiser",
-        "carryChamp3": "Viego",
-        "carryChamp4": "Akali"
-    },
+        "carryChamps": [
+          { "name": "Karthus" },
+          { "name": "Mordekaiser" },
+          { "name": "Viego" },
+          { "name": "Akali" }
+        ]
+      },
     {
         "compName": "Edgelord",
-        "champ1": "Yasuo",
-        "champ2": "Garen",
-        "champ3": "Kayle",
-        "champ4": "Mordekaiser",
-        "champ5": "Riven",
-        "champ6": "Yone",
-        "champ7": "Viego",
-        "champ8": "Kayn",
+        "champs": [
+          "Yasuo", "Garen", "Kayle", "Mordekaiser",
+          "Riven", "Yone", "Viego", "Kayn"
+        ],
         "avgPlace": "4.60",
         "pickRate": "0.37",
         "winRate": "11.5%",
         "Top4Rate": "48.3%",
-        "carryChamp1": "Riven",
-        "carryChamp2": "Yasuo",
-        "carryChamp3": "Viego",
-        "carryChamp4": "Yone"
-     }
+        "carryChamps": [
+          {
+            "name": "Riven",
+            "items": [
+                { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
+                { "name": "Quicksilver", "image": "./items/quicksilver.avif" },
+                { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" }
+            ]
+          },
+          {
+            "name": "Viego",
+            "items": [
+                { "name": "8-Bit Emblem", "image": "./items/8-bitemblem.avif" },
+                { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
+                { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" }
+            ]
+          },
+          {
+            "name": "Yasuo",
+            "items": [
+                { "name": "Edge of Night", "image": "./items/edgeofnight.avif" },
+                { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
+            ]
+          },
+          {
+            "name": "Mordekaiser",
+            "items": [
+                { "name": "Crownguard", "image": "./items/crownguard.avif" },
+                { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" },
+                { "name": "Evenshroud", "image": "./items/Evenshroud.avif" }
+            ]
+          }
+        ]
+    }   
 ]
