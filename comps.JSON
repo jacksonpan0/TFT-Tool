@@ -10,11 +10,39 @@
         "winRate": "15.2%",
         "Top4Rate": "57.0%",
         "carryChamps": [
-          { "name": "Ahri" },
-          { "name": "Blitzcrank" },
-          { "name": "Ekko" },
-          { "name": "Mordekaiser" }
-        ]
+            {
+                "name": "Ahri",
+                "items": [
+                  { "name": "Blue Buff", "image": "./items/bluebuff.avif" },
+                  { "name": "Hextech Gunblade", "image": "./items/hextechgunblade.avif" },
+                  { "name": "Nashor's Tooth", "image": "./items/nashorstooth.avif" }
+                  ]
+              },
+              {
+                "name": "Blitzcrank",
+                "items": [
+                  { "name": "Crownguard", "image": "./items/crownguard.avif" },
+                  { "name": "Ionic Spark", "image": "./items/ionicspark.avif" },
+                  { "name": "Heartsteel", "image": "./items/heartsteel.avif" }
+                  ] 
+              },
+              { 
+                "name": "Ekko",
+                "items": [
+                    { "name": "Ionic Spark", "image": "./items/ionicspark.avif" },
+                    { "name": "Heartsteel", "image": "./items/heartsteel.avif" },
+                    { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" }
+                    ]  
+              },
+              { 
+                "name": "Mordekaiser", 
+                "items": [
+                  { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                  { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                  { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                  ]  
+              }
+          ]
       },
       {
         "compName": "Big Shot",
@@ -27,11 +55,39 @@
         "winRate": "16.4%",
         "Top4Rate": "55.6%",
         "carryChamps": [
-          { "name": "Ezreal" },
-          { "name": "Sett" },
-          { "name": "Jhin" },
-          { "name": "Illaoi" }
-        ]
+            {
+                "name": "Ezreal",
+                "items": [
+                  { "name": "Blue Buff", "image": "./items/bluebuff.avif" },
+                  { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                  { "name": "Red Buff", "image": "./items/redbuff.avif" }
+                  ]
+              },
+              {
+                "name": "Sett",
+                "items": [
+                  { "name": "Crownguard", "image": "./items/crownguard.avif" },
+                  { "name": "Evenshroud", "image": "./items/Evenshroud.avif" },
+                  { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                  ] 
+              },
+              { 
+                "name": "Jhin",
+                "items": [
+                    { "name": "Blue Buff", "image": "./items/bluebuff.avif" },
+                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" }
+                    ]  
+              },
+              { 
+                "name": "Illaoi", 
+                "items": [
+                  { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                  { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                  { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                  ]  
+              }
+          ]
       },
       {
         "compName": "K/DA",
@@ -44,11 +100,39 @@
         "winRate": "11.8%",
         "Top4Rate": "56.5%",
         "carryChamps": [
-          { "name": "Ahri" },
-          { "name": "Akali" },
-          { "name": "Neeko" },
-          { "name": "Ekko" }
-        ]
+            {
+                "name": "Ahri",
+                "items": [
+                  { "name": "Blue Buff", "image": "./items/bluebuff.avif" },
+                  { "name": "Hextech Gunblade", "image": "./items/hextechgunblade.avif" },
+                  { "name": "Nashor's Tooth", "image": "./items/nashorstooth.avif" }
+                  ]
+              },
+              {
+                "name": "Akali",
+                "items": [
+                  { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
+                  { "name": "Red Buff", "image": "./items/redbuff.avif" },
+                  { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
+                  ] 
+              },
+              { 
+                "name": "Neeko",
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Gargoyle Stoneplate", "image": "./items/gargoylestoneplate.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                    ]  
+              },
+              { 
+                "name": "Ekko", 
+                "items": [
+                  { "name": "Ionic Spark", "image": "./items/ionicspark.avif" },
+                  { "name": "Heartsteel", "image": "./items/heartsteel.avif" },
+                  { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" }
+                  ]  
+              }
+          ]
       },
       {
         "compName": "Punk",
@@ -61,11 +145,39 @@
         "winRate": "9.4%",
         "Top4Rate": "56.1%",
         "carryChamps": [
-          { "name": "Jinx" },
-          { "name": "Pantheon" },
-          { "name": "Twitch" },
-          { "name": "Vi" }
-        ]
+            {
+                "name": "Jinx",
+                "items": [
+                  { "name": "Deathblade", "image": "./items/deathblade.avif" },
+                  { "name": "Guinsoo's Rageblade", "image": "./items/guinsoosrageblade.avif" },
+                  { "name": "Last Whisper", "image": "./items/lastwhisper.avif" }
+                  ]
+              },
+              {
+                "name": "Pantheon",
+                "items": [
+                  { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                  { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                  { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                  ] 
+              },
+              { 
+                "name": "Twitch",
+                "items": [
+                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
+                    { "name": "Red Buff", "image": "./items/redbuff.avif" }
+                    ]  
+              },
+              { 
+                "name": "Amumu", 
+                "items": [
+                  { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                  { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                  { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                  ]  
+              }
+          ]
       },
       {
         "compName": "Country",
@@ -78,11 +190,39 @@
         "winRate": "10.9%",
         "Top4Rate": "54.2%",
         "carryChamps": [
-          { "name": "Samira" },
-          { "name": "Urgot" },
-          { "name": "Vex" },
-          { "name": "Amumu" }
-        ]
+            {
+                "name": "Samira",
+                "items": [
+                  { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                  { "name": "Last Whisper", "image": "./items/lastwhisper.avif" },
+                  { "name": "Giant Slayer", "image": "./items/giantslayer.avif" }
+                  ]
+              },
+              {
+                "name": "Urgot",
+                "items": [
+                  { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
+                  { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
+                  { "name": "Red Buff", "image": "./items/redbuff.avif" }
+                  ] 
+              },
+              { 
+                "name": "Vex",
+                "items": [
+                    { "name": "Blue Buff", "image": "./items/bluebuff.avif" },
+                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                    { "name": "Rabadon's Deathcap", "image": "./items/rabadonsdeathcap.avif" }
+                    ]  
+              },
+              { 
+                "name": "Amumu", 
+                "items": [
+                  { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                  { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                  { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                  ]  
+              }
+          ]
       },
       {
         "compName": "True Damage",
@@ -95,11 +235,39 @@
         "winRate": "14.0%",
         "Top4Rate": "52.8%",
         "carryChamps": [
-          { "name": "Senna" },
-          { "name": "Ekko" },
-          { "name": "Akali" },
-          { "name": "Qiyana" }
-        ]
+            {
+                "name": "Senna",
+                "items": [
+                  { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                  { "name": "Nashor's Tooth", "image": "./items/nashorstooth.avif" },
+                  { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
+                  ]
+              },
+              {
+                "name": "Ekko",
+                "items": [
+                  { "name": "Crownguard", "image": "./items/crownguard.avif" },
+                  { "name": "Heartsteel", "image": "./items/heartsteel.avif" },
+                  { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                  ] 
+              },
+              { 
+                "name": "Akali",
+                "items": [
+                    { "name": "Edge of Night", "image": "./items/edgeofnight.avif" },
+                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
+                    { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
+                    ]  
+              },
+              { 
+                "name": "Qiyana", 
+                "items": [
+                  { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
+                  { "name": "Blue Buff", "image": "./items/bluebuff.avif" },
+                  { "name": "Edge of Night", "image": "./items/edgeofnight.avif" }
+                  ]  
+              }
+          ]
       },
       {
         "compName": "EDM",
@@ -112,11 +280,39 @@
         "winRate": "14.6%",
         "Top4Rate": "52.8%",
         "carryChamps": [
-          { "name": "Zed" },
-          { "name": "Jax" },
-          { "name": "Lux" },
-          { "name": "Qiyana" }
-        ]
+            {
+                "name": "Zed",
+                "items": [
+                  { "name": "Edge of Night", "image": "./items/edgeofnight.avif" },
+                  { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
+                  { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
+                  ]
+              },
+              {
+                "name": "Zac",
+                "items": [
+                  { "name": "Ionic Spark", "image": "./items/ionicspark.avif" },
+                  { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" },
+                  { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                  ] 
+              },
+              { 
+                "name": "Qiyana",
+                "items": [
+                    { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
+                    { "name": "Edge of Night", "image": "./items/edgeofnight.avif" },
+                    { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
+                    ]  
+              },
+              { 
+                "name": "Lux", 
+                "items": [
+                  { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                  { "name": "Rabadon's Deathcap", "image": "./items/rabadonsdeathcap.avif" },
+                  { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
+                  ]  
+              }
+          ]
       },
       {
         "compName": "Jazz",
@@ -129,11 +325,39 @@
         "winRate": "10.9%",
         "Top4Rate": "52.2%",
         "carryChamps": [
-          { "name": "Miss Fortune" },
-          { "name": "Neeko" },
-          { "name": "Ekko" },
-          { "name": "Bard" }
-        ]
+            {
+                "name": "Miss Fortune",
+                "items": [
+                  { "name": "Deathblade", "image": "./items/deathblade.avif" },
+                  { "name": "Guinsoo's Rageblade", "image": "./items/guinsoosrageblade.avif" },
+                  { "name": "Last Whisper", "image": "./items/lastwhisper.avif" }
+                  ]
+              },
+              {
+                "name": "Neeko",
+                "items": [
+                  { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                  { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                  { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                  ] 
+              },
+              { 
+                "name": "Ekko",
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                    ]  
+              },
+              { 
+                "name": "Bard", 
+                "items": [
+                  { "name": "Adaptive Helm", "image": "./items/adaptivehelm.avif" },
+                  { "name": "Blue Buff", "image": "./items/bluebuff.avif" },
+                  { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" }
+                  ]  
+              }
+          ]
       },
       {
         "compName": "Pentakill",
@@ -146,10 +370,38 @@
         "winRate": "11.5%",
         "Top4Rate": "49.3%",
         "carryChamps": [
-          { "name": "Karthus" },
-          { "name": "Mordekaiser" },
-          { "name": "Viego" },
-          { "name": "Akali" }
+            {
+              "name": "Karthus",
+              "items": [
+                { "name": "Archangel's Staff", "image": "./items/archangelsstaff.avif" },
+                { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
+                ]
+            },
+            {
+              "name": "Mordekaiser",
+              "items": [
+                { "name": "Crownguard", "image": "./items/crownguard.avif" },
+                { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ] 
+            },
+            { 
+              "name": "Viego",
+              "items": [
+                { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
+                { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" },
+                { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
+                ]  
+            },
+            { 
+              "name": "Akali", 
+              "items": [
+                { "name": "Pentakill Emblem", "image": "./items/pentakillemblem.avif" },
+                { "name": "Red Buff", "image": "./items/redbuff.avif" },
+                { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
+                ]  
+            }
         ]
       },
     {

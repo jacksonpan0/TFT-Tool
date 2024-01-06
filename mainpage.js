@@ -92,27 +92,20 @@ document.addEventListener("DOMContentLoaded", function () {
                     championContainer.appendChild(champImg);
                     championContainer.appendChild(champNameDiv);         
                     // Check if the carryChamp has items
-                    // Check if the carryChamp has items
-if (carryChamp.items && carryChamp.items.length > 0) {
-    const itemsList = document.createElement("ul");
-    itemsList.classList.add("items-list", "horizontal"); // Added "horizontal" class
-
-    carryChamp.items.forEach(item => {
-        const itemLi = document.createElement("li");
-        itemLi.classList.add("item"); // Added "item" class for styling
-
-        const itemImg = document.createElement("img");
-        itemImg.src = `${item.image}`;
-        itemImg.alt = item.name;
-
-        itemLi.appendChild(itemImg);
-        itemsList.appendChild(itemLi);
-    });
-
-    championContainer.appendChild(itemsList);
-}
-
-                
+                    if (carryChamp.items && carryChamp.items.length > 0) {
+                        const itemsList = document.createElement("ul");
+                        itemsList.classList.add("items-list", "horizontal"); // Added "horizontal" class
+                        carryChamp.items.forEach(item => {
+                            const itemLi = document.createElement("li");
+                            itemLi.classList.add("item"); // Added "item" class for styling
+                            const itemImg = document.createElement("img");
+                            itemImg.src = `${item.image}`;
+                            itemImg.alt = item.name;
+                            itemLi.appendChild(itemImg);
+                            itemsList.appendChild(itemLi);
+                        });
+                        championContainer.appendChild(itemsList);
+                    }
                     champLi.appendChild(championContainer);
                     carryChampsListUl.appendChild(champLi);
                 });
