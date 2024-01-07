@@ -67,7 +67,7 @@
                 "name": "Sett",
                 "items": [
                   { "name": "Crownguard", "image": "./items/crownguard.avif" },
-                  { "name": "Evenshroud", "image": "./items/Evenshroud.avif" },
+                  { "name": "Evenshroud", "image": "./items/evenshroud.avif" },
                   { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
                   ] 
               },
@@ -444,7 +444,7 @@
             "items": [
                 { "name": "Crownguard", "image": "./items/crownguard.avif" },
                 { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" },
-                { "name": "Evenshroud", "image": "./items/Evenshroud.avif" }
+                { "name": "Evenshroud", "image": "./items/evenshroud.avif" }
             ]
           }
         ]
