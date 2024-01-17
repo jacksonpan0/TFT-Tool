@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     championContainer.appendChild(champImg);
                     championContainer.appendChild(champNameDiv);         
                     // Check if the carryChamp has items
-                    if (carryChamp.items && carryChamp.items.length > 0) {
+                    if (carryChamp.items) {
                         const itemsList = document.createElement("ul");
                         itemsList.classList.add("items-list", "horizontal"); // Added "horizontal" class
                         carryChamp.items.forEach(item => {
@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const infoData = {
         About: {
             gradient: 'linear-gradient(to right, #ff9900, #ff0066)',    
-            text: `TFT Tool displays the top 10 performing comps from the last 2 days. 
+            text: `TFT Tool displays the top 15 performing comps from the last 2 days. 
             Our statistics are pulled from games played in Platinum+, with all Masters+ games accounted for.  
             TFT Tool sources stats and comps from MetaTFT which utilizes Riot’s API combined with Clustering Method to determine comp performance. 
             Each comp’s stats are time-weighted, thus more recent data impacts each stat more than previous data. 
