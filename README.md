@@ -1,8 +1,7 @@
 # TFT Tool
 TFT Tool by **Jackson Pan**
 
-A web application that allows users to view the top 15 performing TFT comps from games played in Plat+. The comps displayed are pulled from the past two days and utilizes clustering methods to 
-avoid survivorship bias.
+A web application that allows users to view the top 15 performing TFT comps from games played in Plat+. The comps displayed are pulled from the past two days and utilize clustering methods to avoid survivorship bias.
 
 # Screenshots
 <p align="center"></p>
@@ -15,4 +14,4 @@ avoid survivorship bias.
 
 # Website Link
 
-[https://jacobmcgreen.github.io/DandyHacks23/index.html](https://jacksonpan0.github.io/TFT-Tool/)https://jacksonpan0.github.io/TFT-Tool/
+https://jacksonpan0.github.io/TFT-Tool/
