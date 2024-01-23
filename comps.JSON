@@ -42,6 +42,32 @@
                     { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
                 ]
             }
+        ],
+        "bestAugments": [
+            {
+                "name": "Silver Augments",
+                "items": [
+                    { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
+                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
+                    { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
+                ]
+            },
+            {
+                "name": "Golden Augments",
+                "items": [
+                    { "name": "Twin Terror II", "image": "./augments/twin-terror-ii.png" },
+                    { "name": "Emotional Connection II", "image": "./augments/emotional-connection-ii.png" },
+                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" }
+                ]
+            },
+            {
+                "name": "Prismatics Augments",
+                "items": [
+                    { "name": "Twin Terror III", "image": "./augments/twin-terror-iii.png" },
+                    { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
+                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
+                ]
+            }
         ]
     },
     {
@@ -85,6 +111,32 @@
                     { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
                     { "name": "Sterak's Gage", "image": "./items/steraksgage.avif" },
                     { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" }
+                ]
+            }
+        ],
+        "bestAugments": [
+            {
+                "name": "Silver Augments",
+                "items": [
+                    { "name": "Tiny Titans", "image": "./augments/tiny-titans-i.png" },
+                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
+                    { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
+                ]
+            },
+            {
+                "name": "Golden Augments",
+                "items": [
+                    { "name": "Pandora's Item II", "image": "./augments/pandora2.png" },
+                    { "name": "Big Grab Bag", "image": "./augments/grab-bag-ii.png" },
+                    { "name": "Balanced Budget", "image": "./augments/balanced-budget-ii.png" }
+                ]
+            },
+            {
+                "name": "Prismatics Augments",
+                "items": [
+                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" },
+                    { "name": "Level Up!", "image": "./augments/levelup3.png" },
+                    { "name": "Hedge Fund++", "image": "./augments/richgetricher3.png" }
                 ]
             }
         ]
@@ -132,6 +184,32 @@
                     { "name": "Giant Slayer", "image": "./items/giantslayer.avif" }
                 ]
             }
+        ],
+        "bestAugments": [
+            {
+                "name": "Silver Augments",
+                "items": [
+                    { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
+                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
+                    { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
+                ]
+            },
+            {
+                "name": "Golden Augments",
+                "items": [
+                    { "name": "Expose Weakness", "image": "./augments/expose-weakness-ii.png" },
+                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" },
+                    { "name": "Return on Investment", "image": "./augments/goldreserves2.png" }
+                ]
+            },
+            {
+                "name": "Prismatics Augments",
+                "items": [
+                    { "name": "Twin Terror III", "image": "./augments/twin-terror-iii.png" },
+                    { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
+                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
+                ]
+            }
         ]
     },
     {
@@ -175,6 +253,32 @@
                     { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
                     { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
                     { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            }
+        ],
+        "bestAugments": [
+            {
+                "name": "Silver Augments",
+                "items": [
+                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
+                    { "name": "Tiny Titans", "image": "./augments/tiny-titans-i.png" },
+                    { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
+                ]
+            },
+            {
+                "name": "Golden Augments",
+                "items": [
+                    { "name": "Jeweled Lotus II", "image": "./augments/jeweled-lotus-ii.png" },
+                    { "name": "Pandora's Item II", "image": "./augments/pandora2.png" },
+                    { "name": "Return on Investment", "image": "./augments/goldreserves2.png" }
+                ]
+            },
+            {
+                "name": "Prismatics Augments",
+                "items": [
+                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" },
+                    { "name": "Jeweled Lotus III", "image": "./augments/jeweled-lotus-iii.png" },
+                    { "name": "Pandora's Item III", "image": "./augments/pandora3.png" }
                 ]
             }
         ]
@@ -222,6 +326,32 @@
                     { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
                 ]
             }
+        ],
+        "bestAugments": [
+            {
+                "name": "Silver Augments",
+                "items": [
+                    { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
+                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
+                    { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
+                ]
+            },
+            {
+                "name": "Golden Augments",
+                "items": [
+                    { "name": "Jeweled Lotus II", "image": "./augments/jeweled-lotus-ii.png" },
+                    { "name": "Pandora's Item II", "image": "./augments/pandora2.png" },
+                    { "name": "Return on Investment", "image": "./augments/goldreserves2.png" }
+                ]
+            },
+            {
+                "name": "Prismatics Augments",
+                "items": [
+                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" },
+                    { "name": "Jeweled Lotus III", "image": "./augments/jeweled-lotus-iii.png" },
+                    { "name": "Pandora's Item III", "image": "./augments/pandora3.png" }
+                ]
+            }
         ]
     },
     {
@@ -265,6 +395,40 @@
                     { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
                     { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" },
                     { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
+                ]
+            }
+        ],
+        "bestAugments": [
+            {
+                "name": "Vex",
+                "items": [
+                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                    { "name": "Rabadon's Deathcap", "image": "./items/rabadonsdeathcap.avif" },
+                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
+                ]
+            },
+            {
+                "name": "Amumu",
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            },
+            {
+                "name": "Twitch",
+                "items": [
+                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
+                    { "name": "Red Buff", "image": "./items/redbuff.avif" }
+                ]
+            },
+            {
+                "name": "Pantheon", 
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
                 ]
             }
         ]
@@ -312,6 +476,40 @@
                     { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
                 ]
             }
+        ],
+        "bestAugments": [
+            {
+                "name": "Vex",
+                "items": [
+                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                    { "name": "Rabadon's Deathcap", "image": "./items/rabadonsdeathcap.avif" },
+                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
+                ]
+            },
+            {
+                "name": "Amumu",
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            },
+            {
+                "name": "Twitch",
+                "items": [
+                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
+                    { "name": "Red Buff", "image": "./items/redbuff.avif" }
+                ]
+            },
+            {
+                "name": "Pantheon", 
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            }
         ]
     },
     {
@@ -351,6 +549,40 @@
             },
             {
                 "name": "Vi", 
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            }
+        ],
+        "bestAugments": [
+            {
+                "name": "Vex",
+                "items": [
+                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                    { "name": "Rabadon's Deathcap", "image": "./items/rabadonsdeathcap.avif" },
+                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
+                ]
+            },
+            {
+                "name": "Amumu",
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            },
+            {
+                "name": "Twitch",
+                "items": [
+                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
+                    { "name": "Red Buff", "image": "./items/redbuff.avif" }
+                ]
+            },
+            {
+                "name": "Pantheon", 
                 "items": [
                     { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
                     { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
@@ -402,6 +634,40 @@
                     { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
                 ]
             }
+        ],
+        "bestAugments": [
+            {
+                "name": "Vex",
+                "items": [
+                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                    { "name": "Rabadon's Deathcap", "image": "./items/rabadonsdeathcap.avif" },
+                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
+                ]
+            },
+            {
+                "name": "Amumu",
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            },
+            {
+                "name": "Twitch",
+                "items": [
+                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
+                    { "name": "Red Buff", "image": "./items/redbuff.avif" }
+                ]
+            },
+            {
+                "name": "Pantheon", 
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            }
         ]
     },
     {
@@ -447,6 +713,40 @@
                     { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" }
                 ]
             }
+        ],
+        "bestAugments": [
+            {
+                "name": "Vex",
+                "items": [
+                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                    { "name": "Rabadon's Deathcap", "image": "./items/rabadonsdeathcap.avif" },
+                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
+                ]
+            },
+            {
+                "name": "Amumu",
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            },
+            {
+                "name": "Twitch",
+                "items": [
+                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
+                    { "name": "Red Buff", "image": "./items/redbuff.avif" }
+                ]
+            },
+            {
+                "name": "Pantheon", 
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            }
         ]
     },
     {
@@ -489,6 +789,40 @@
                 "items": [
                     { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
                     { "name": "Heartsteel", "image": "./items/heartsteel.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            }
+        ],
+        "bestAugments": [
+            {
+                "name": "Vex",
+                "items": [
+                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                    { "name": "Rabadon's Deathcap", "image": "./items/rabadonsdeathcap.avif" },
+                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
+                ]
+            },
+            {
+                "name": "Amumu",
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            },
+            {
+                "name": "Twitch",
+                "items": [
+                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
+                    { "name": "Red Buff", "image": "./items/redbuff.avif" }
+                ]
+            },
+            {
+                "name": "Pantheon", 
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
                     { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
                 ]
             }
@@ -537,6 +871,40 @@
                     { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" }
                 ]
             }
+        ],
+        "bestAugments": [
+            {
+                "name": "Vex",
+                "items": [
+                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                    { "name": "Rabadon's Deathcap", "image": "./items/rabadonsdeathcap.avif" },
+                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
+                ]
+            },
+            {
+                "name": "Amumu",
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            },
+            {
+                "name": "Twitch",
+                "items": [
+                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
+                    { "name": "Red Buff", "image": "./items/redbuff.avif" }
+                ]
+            },
+            {
+                "name": "Pantheon", 
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            }
         ]
     },
     {
@@ -580,6 +948,40 @@
                     { "name": "8-bit Emblem", "image": "./items/8-bitemblem.avif" },
                     { "name": "Edge of Night", "image": "./items/edgeofnight.avif" },
                     { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
+                ]
+            }
+        ],
+        "bestAugments": [
+            {
+                "name": "Vex",
+                "items": [
+                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                    { "name": "Rabadon's Deathcap", "image": "./items/rabadonsdeathcap.avif" },
+                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
+                ]
+            },
+            {
+                "name": "Amumu",
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            },
+            {
+                "name": "Twitch",
+                "items": [
+                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
+                    { "name": "Red Buff", "image": "./items/redbuff.avif" }
+                ]
+            },
+            {
+                "name": "Pantheon", 
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
                 ]
             }
         ]
@@ -627,6 +1029,40 @@
                     { "name": "Evenshroud", "image": "./items/evenshroud.avif" }
                 ]
             }
+        ],
+        "bestAugments": [
+            {
+                "name": "Vex",
+                "items": [
+                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                    { "name": "Rabadon's Deathcap", "image": "./items/rabadonsdeathcap.avif" },
+                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
+                ]
+            },
+            {
+                "name": "Amumu",
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            },
+            {
+                "name": "Twitch",
+                "items": [
+                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
+                    { "name": "Red Buff", "image": "./items/redbuff.avif" }
+                ]
+            },
+            {
+                "name": "Pantheon", 
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            }
         ]
     },
     {
@@ -670,6 +1106,40 @@
                     { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
                     { "name": "Sterak's Gage", "image": "./items/steraksgage.avif" },
                     { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" }
+                ]
+            }
+        ],
+        "bestAugments": [
+            {
+                "name": "Vex",
+                "items": [
+                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                    { "name": "Rabadon's Deathcap", "image": "./items/rabadonsdeathcap.avif" },
+                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
+                ]
+            },
+            {
+                "name": "Amumu",
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            },
+            {
+                "name": "Twitch",
+                "items": [
+                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
+                    { "name": "Red Buff", "image": "./items/redbuff.avif" }
+                ]
+            },
+            {
+                "name": "Pantheon", 
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
                 ]
             }
         ]

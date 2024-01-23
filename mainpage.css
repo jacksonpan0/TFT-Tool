@@ -58,7 +58,8 @@ body {
     border-radius: 8px;
 }
 
-.champs-list.horizontal {
+.champs-list.horizontal,
+.augment-list.horizontal {
     list-style-type: none;
     padding: 10px;
     margin: 0;
@@ -77,11 +78,13 @@ body {
     height: auto;
 }
 
-.champion-container {
+.champion-container,
+.augment-container {
     text-align: center;
 }
   
-.champion-name {
+.champion-name,
+.augment-name {
     font-size: 10px;
     max-width: 100%;
     overflow: hidden;
@@ -159,18 +162,29 @@ body {
     width: 100px;
 }
 
-.carry-champs-text {
+.carry-champs-text,
+.best-augments-text {
     text-align: center; /* Center the text horizontally */
     font-family: "Jost";
     font-size: 15px; /* Adjust the font size as needed */
 }
 
-.items-list.horizontal {
+.items-list.horizontal,
+.augments-list.horizontal {
     display: flex;
 }
 
-.items-list {
+.items-list,
+.augments-list {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.augment img {
+    width: 30%;
+}
+
+.augment-list.horizontal {
+    text-align: center;
 }
