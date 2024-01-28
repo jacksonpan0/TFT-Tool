@@ -194,3 +194,37 @@ button:hover {
     color: antiquewhite;
     transition: background-color 0.3s ease;
 }
+
+.dark-mode .comp-container {
+    color: #1a1a1a;
+    background-color: rgba(225, 223, 223, 0.9);
+}
+
+.dark-mode #main-container {
+    background-color: rgba(178, 177, 177, 0.9);
+    
+}
+
+.dark-mode button {
+    background-color: #3e2b33;
+    color: antiquewhite;
+}
+
+.dark-mode button:hover {
+    background-color: antiquewhite;
+    color: #3e2b33;
+    transition: background-color 0.3s ease;
+}
+
+#dark-mode-toggle {
+    background-color: transparent;
+    border: none;
+    color: inherit; /* Use the parent element's text color */
+    padding: 0; /* Remove padding */
+    cursor: pointer;
+}
+
+.dark-mode #update-text,
+.dark-mode #info-link {
+    color: #3e2b33;
+}

@@ -168,7 +168,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const popupInfo = document.getElementById("popup-info");
     const popupBox = document.getElementById("popup-box");
     const closePopupBtn = document.getElementById("close-popup");
-
     //Text data inserted into the popup
     const infoData = {
         About: {
@@ -180,27 +179,33 @@ document.addEventListener("DOMContentLoaded", function () {
             The comps being displayed reflected meta-shifts relatively quickly while avoiding survivorship bias.`
         }
     };
-
     //Show popup
     infoLink.addEventListener("click", function (event) {
         event.preventDefault();
         showPopup('About');
     });
-
     //Hide popup
     closePopupBtn.addEventListener("click", function () {
         hidePopup();
     });
-
     //Remove hidden class
     function showPopup(section) {
         console.log(`Showing ${section} section`);
         popupInfo.innerHTML = `<span style="background: ${infoData[section].gradient}; color: white;">${section}</span><br>${infoData[section].text}`;
         popupBox.classList.remove("hidden");
     }
-
     //Add hidden class
     function hidePopup() {
         popupBox.classList.add("hidden");
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const darkModeToggle = document.getElementById("dark-mode-toggle");
+    darkModeToggle.addEventListener("click", toggleDarkMode);
+
+    // Function to toggle dark mode
+    function toggleDarkMode() {
+        document.body.classList.toggle("dark-mode");
     }
 });
