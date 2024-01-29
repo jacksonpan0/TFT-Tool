@@ -204,8 +204,25 @@ document.addEventListener("DOMContentLoaded", function () {
     const darkModeToggle = document.getElementById("dark-mode-toggle");
     darkModeToggle.addEventListener("click", toggleDarkMode);
 
-    // Function to toggle dark mode
+    // Function to toggle dark mode and change the icon
     function toggleDarkMode() {
-        document.body.classList.toggle("dark-mode");
+        const body = document.body;
+        body.classList.toggle("dark-mode");
+
+        // Get the current mode
+        const isDarkMode = body.classList.contains("dark-mode");
+
+        // Get the dark mode icon and light mode icon
+        const darkModeIcon = "./svg/sun.svg";
+        const lightModeIcon = "./svg/moon.svg";
+
+        // Update the icon based on the current mode
+        const iconSrc = isDarkMode ? lightModeIcon : darkModeIcon;
+        darkModeToggle.querySelector("img").src = iconSrc;
+        
+        // Update the alt text based on the current mode
+        const altText = isDarkMode ? "Light Mode" : "Dark Mode";
+        darkModeToggle.querySelector("img").alt = altText;
     }
 });
+

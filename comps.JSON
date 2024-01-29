@@ -1,47 +1,267 @@
 [
     {
-        "compName": "Twin Terror",
+    "compName": "Punk Jinx",
+    "champs": [
+        "Jinx", "Vi", "Pantheon", "Twitch",
+        "Amumu", "Neeko", "Vex", "Thresh"
+    ],
+    "avgPlace": "3.83",
+    "pickRate": "0.47",
+    "winRate": "14.5%",
+    "Top4Rate": "63.5%",
+    "carryChamps": [
+        {
+            "name": "Jinx",
+            "items": [
+                { "name": "Deathblade", "image": "./items/deathblade.avif" },
+                { "name": "Guinsoo's Rageblade", "image": "./items/guinsoosrageblade.avif" },
+                { "name": "Last Whisper", "image": "./items/lastwhisper.avif" }
+            ]
+        },
+        {
+            "name": "Pantheon",
+            "items": [
+                { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+            ]
+        },
+        {
+            "name": "Twitch",
+            "items": [
+                { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
+                { "name": "Red Buff", "image": "./items/redbuff.avif" }
+            ]
+        },
+        {
+            "name": "Vex", 
+            "items": [
+                { "name": "Archangel's Staff", "image": "./items/archangelsstaff.avif" },
+                { "name": "Rabadon's Deathcap", "image": "./items/rabadonsdeathcap.avif" },
+                { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
+            ]
+        }
+    ],
+    "bestAugments": [
+        {
+            "name": "Silver Augments",
+            "items": [
+                { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
+                { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
+                { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
+            ]
+        },
+        {
+            "name": "Golden Augments",
+            "items": [
+                { "name": "Return on Investment", "image": "./augments/return-on-investment.png" },
+                { "name": "Extended Play", "image": "./augments/extended-play.png" },
+                { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" }
+            ]
+        },
+        {
+            "name": "Prismatics Augments",
+            "items": [
+                { "name": "Twin Terror III", "image": "./augments/twin-terror-iii.png" },
+                { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
+                { "name": "Pandora's Item III", "image": "./augments/pandora3.png" }
+            ]
+        }
+    ]
+    },
+    {
+        "compName": "Big Shot Ezreal",
         "champs": [
-            "Pantheon", "Pantheon", "Twitch", "Twitch",
-            "Amumu", "Amumu", "Vex", "Vex"
+        "Miss Fortune", "Sett", "Ezreal", "Thresh",
+        "Illaoi", "Jhin", "Kayn", "Lucian", "Yorick"
+    ],
+    "avgPlace": "4.02",
+    "pickRate": "0.27", 
+    "winRate": "23.6%",
+    "Top4Rate": "56.7%",
+    "carryChamps": [
+        {
+            "name": "Ezreal",
+            "items": [
+                { "name": "Blue Buff", "image": "./items/bluebuff.avif" },
+                { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                { "name": "Red Buff", "image": "./items/redbuff.avif" }
+            ]
+        },
+        {
+            "name": "Sett",
+            "items": [
+                { "name": "Crownguard", "image": "./items/crownguard.avif" },
+                { "name": "Evenshroud", "image": "./items/evenshroud.avif" },
+                { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+            ]
+        },
+        {
+            "name": "Illaoi",
+            "items": [
+                { "name": "Crownguard", "image": "./items/crownguard.avif" },
+                { "name": "Evenshroud", "image": "./items/evenshroud.avif" },
+                { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+            ]
+        },
+        {
+            "name": "Miss Fortune", 
+            "items": [
+                { "name": "Tactian's Crown", "image": "./items/tft_item_forceofnature.avif" },
+                { "name": "Guinsoo's Rageblade", "image": "./items/guinsoosrageblade.avif" },
+                { "name": "Deathblade", "image": "./items/deathblade.avif" }
+            ]
+        }
+    ],
+    "bestAugments": [
+        {
+            "name": "Silver Augments",
+            "items": [
+                { "name": "Tiny Titans", "image": "./augments/tiny-titans-i.png" },
+                { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
+                { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
+            ]
+        },
+        {
+            "name": "Golden Augments",
+            "items": [
+                { "name": "Pandora's Item II", "image": "./augments/pandora2.png" },
+                { "name": "Big Grab Bag", "image": "./augments/grab-bag-ii.png" },
+                { "name": "Harmacist II", "image": "./augments/harmacist-ii.png" }
+            ]
+        },
+        {
+            "name": "Prismatics Augments",
+            "items": [
+                { "name": "New Recruit", "image": "./augments/newrecruit3.png" },
+                { "name": "Radiant Relics", "image": "./augments/radiantrelic-iii.png" },
+                { "name": "Hedge Fund++", "image": "./augments/richgetricher3.png" }
+            ]
+        }
+    ]
+},
+{
+    "compName": "Pentakill Karthus Mordekaiser",
+    "champs": [
+        "Lillia", "Gnar", "Mordekaiser", "Neeko",
+        "Akali", "Karthus", "Viego", "Yorick"
+    ],
+    "avgPlace": "4.08",
+    "pickRate": "0.54",
+    "winRate": "16.8%",
+    "Top4Rate": "57.7%",
+    "carryChamps": [
+        {
+            "name": "Karthus",
+            "items": [
+                { "name": "Archangel's Staff", "image": "./items/archangelsstaff.avif" },
+                { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
+            ]
+        },
+        {
+            "name": "Mordekaiser",
+            "items": [
+                { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" },
+                { "name": "Crownguard", "image": "./items/crownguard.avif" },
+                { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+            ]
+        },
+        {
+            "name": "Akali",
+            "items": [
+                { "name": "Pentakill Emblem", "image": "./items/pentakillemblem.avif" },
+                { "name": "Red Buff", "image": "./items/redbuff.avif" },
+                { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
+            ]
+        },
+        {
+            "name": "Viego", 
+            "items": [
+                { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
+                { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" },
+                { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
+            ]
+        }
+    ],
+    "bestAugments": [
+        {
+            "name": "Silver Augments",
+            "items": [
+                { "name": "Tiny Titans", "image": "./augments/tiny-titans-i.png" },
+                { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
+                { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
+            ]
+        },
+        {
+            "name": "Golden Augments",
+            "items": [
+                { "name": "Metalheads", "image": "./augments/metalheads-ii.png" },
+                { "name": "Harmacist II", "image": "./augments/harmacist-ii.png" },
+                { "name": "Jeweled Lotus II", "image": "./augments/jeweled-lotus-ii.png" }
+            ]
+        },
+        {
+            "name": "Prismatics Augments",
+            "items": [
+                { "name": "Jeweled Lotus III", "image": "./augments/jeweled-lotus-iii.png" },
+                { "name": "Pandora's Item III", "image": "./augments/pandora3.png" },
+                { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
+            ]
+        }
+    ]
+    },
+    {
+        "compName": "Punk Jinx Pantheon",
+        "champs": [
+            "Jinx", "Vi", "Aphelios", "Pantheon", "Twitch",
+            "Amumu", "Neeko", "Thresh"
         ],
-        "avgPlace": "3.80",
-        "pickRate": "0.27",
-        "winRate": "18.6%",
-        "Top4Rate": "63.0%",
+        "avgPlace": "4.10",
+        "pickRate": "0.19",
+        "winRate": "12.6%",
+        "Top4Rate": "58.9%",
         "carryChamps": [
             {
-                "name": "Vex",
+                "name": "Jinx",
                 "items": [
-                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
-                    { "name": "Rabadon's Deathcap", "image": "./items/rabadonsdeathcap.avif" },
-                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
-                ]
-            },
-            {
-                "name": "Amumu",
-                "items": [
-                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
-                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
-                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
-                ]
-            },
-            {
-                "name": "Twitch",
-                "items": [
-                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
                     { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
-                    { "name": "Red Buff", "image": "./items/redbuff.avif" }
+                    { "name": "Guinsoo's Rageblade", "image": "./items/guinsoosrageblade.avif" },
+                    { "name": "Last Whisper", "image": "./items/lastwhisper.avif" }
                 ]
             },
             {
-                "name": "Pantheon", 
+                "name": "Pantheon",
                 "items": [
                     { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
                     { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
                     { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            },
+            {
+                "name": "Thresh",
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            },
+            {
+                "name": "Amumu", 
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            },
+            {
+                "name": "Vi", 
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/tft10_item_guardianemblem.avif" }
                 ]
             }
+
         ],
         "bestAugments": [
             {
@@ -55,159 +275,17 @@
             {
                 "name": "Golden Augments",
                 "items": [
-                    { "name": "Twin Terror II", "image": "./augments/twin-terror-ii.png" },
-                    { "name": "Emotional Connection II", "image": "./augments/emotional-connection-ii.png" },
+                    { "name": "Return on Investment", "image": "./augments/return-on-investment.png" },
+                    { "name": "Ramping Rhythm", "image": "./augments/ramping-rhythm-ii.png" },
                     { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" }
                 ]
             },
             {
                 "name": "Prismatics Augments",
                 "items": [
-                    { "name": "Twin Terror III", "image": "./augments/twin-terror-iii.png" },
-                    { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
-                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
-                ]
-            }
-        ]
-    },
-    {
-        "compName": "Big Shot Ezreal",
-        "champs": [
-            "Miss Fortune", "Sett", "Ezreal", "Thresh",
-            "Illaoi", "Jhin", "Kayn", "Lucian", "Yorick"
-        ],
-        "avgPlace": "4.09",
-        "pickRate": "0.20",
-        "winRate": "22.1%",
-        "Top4Rate": "55.5%",
-        "carryChamps": [
-            {
-                "name": "Ezreal",
-                "items": [
-                    { "name": "Blue Buff", "image": "./items/bluebuff.avif" },
-                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
-                    { "name": "Red Buff", "image": "./items/redbuff.avif" }
-                ]
-            },
-            {
-                "name": "Jhin",
-                "items": [
-                    { "name": "Blue Buff", "image": "./items/bluebuff.avif" },
-                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
-                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" }
-                ]
-            },
-            {
-                "name": "Illaoi",
-                "items": [
-                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
-                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
-                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
-                ]
-            },
-            {
-                "name": "Yorick", 
-                "items": [
-                    { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
-                    { "name": "Sterak's Gage", "image": "./items/steraksgage.avif" },
-                    { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" }
-                ]
-            }
-        ],
-        "bestAugments": [
-            {
-                "name": "Silver Augments",
-                "items": [
-                    { "name": "Tiny Titans", "image": "./augments/tiny-titans-i.png" },
-                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
-                    { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
-                ]
-            },
-            {
-                "name": "Golden Augments",
-                "items": [
-                    { "name": "Pandora's Item II", "image": "./augments/pandora2.png" },
-                    { "name": "Big Grab Bag", "image": "./augments/grab-bag-ii.png" },
-                    { "name": "Balanced Budget", "image": "./augments/balanced-budget-ii.png" }
-                ]
-            },
-            {
-                "name": "Prismatics Augments",
-                "items": [
+                    { "name": "Radiant Relics", "image": "./augments/radiantrelic-iii.png" },
                     { "name": "New Recruit", "image": "./augments/newrecruit3.png" },
-                    { "name": "Level Up!", "image": "./augments/levelup3.png" },
-                    { "name": "Hedge Fund++", "image": "./augments/richgetricher3.png" }
-                ]
-            }
-        ]
-    },
-    {
-        "compName": "Executioner Vex",
-        "champs": [
-            "Pantheon", "Twitch", "Amumu", "Samira",
-            "Vex", "Akali", "Karthus", "Thresh"
-        ],
-        "avgPlace": "4.13",
-        "pickRate": "0.20",
-        "winRate": "14.5%",
-        "Top4Rate": "56.9%",
-        "carryChamps": [
-            {
-                "name": "Vex",
-                "items": [
-                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
-                    { "name": "Rabadon's Deathcap", "image": "./items/rabadonsdeathcap.avif" },
-                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
-                ]
-            },
-            {
-                "name": "Amumu",
-                "items": [
-                    { "name": "Gargoyle Stoneplate", "image": "./items/gargoylestoneplate.avif" },
-                    { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" },
-                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
-                ]
-            },
-            {
-                "name": "Twitch",
-                "items": [
-                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
-                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
-                    { "name": "Red Buff", "image": "./items/redbuff.avif" }
-                ]
-            },
-            {
-                "name": "Samira",
-                "items": [
-                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
-                    { "name": "Last Whisper", "image": "./items/lastwhisper.avif" },
-                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" }
-                ]
-            }
-        ],
-        "bestAugments": [
-            {
-                "name": "Silver Augments",
-                "items": [
-                    { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
-                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
-                    { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
-                ]
-            },
-            {
-                "name": "Golden Augments",
-                "items": [
-                    { "name": "Expose Weakness", "image": "./augments/expose-weakness-ii.png" },
-                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" },
-                    { "name": "Return on Investment", "image": "./augments/goldreserves2.png" }
-                ]
-            },
-            {
-                "name": "Prismatics Augments",
-                "items": [
-                    { "name": "Twin Terror III", "image": "./augments/twin-terror-iii.png" },
-                    { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
-                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
+                    { "name": "Pandora's Item III", "image": "./augments/pandora3.png" }
                 ]
             }
         ]
@@ -218,10 +296,10 @@
             "Kennen", "Lillia", "Kai'Sa", "Seraphine",
             "Ekko", "Neeko", "Ahri", "Akali"
         ],
-        "avgPlace": "4.14",
-        "pickRate": "0.60",
-        "winRate": "13.2%",
-        "Top4Rate": "57.4%",
+        "avgPlace": "4.12",
+        "pickRate": "0.77",
+        "winRate": "13.8%",
+        "Top4Rate": "57.6%",
         "carryChamps": [
             {
                 "name": "Ahri",
@@ -250,9 +328,9 @@
             {
                 "name": "Ekko",
                 "items": [
-                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
-                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
-                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                    { "name": "Gargoyle Stoneplate", "image": "./items/gargoylestoneplate.avif" },
+                    { "name": "Ionic Spark", "image": "./items/ionicspark.avif" },
+                    { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" }
                 ]
             }
         ],
@@ -270,7 +348,7 @@
                 "items": [
                     { "name": "Jeweled Lotus II", "image": "./augments/jeweled-lotus-ii.png" },
                     { "name": "Pandora's Item II", "image": "./augments/pandora2.png" },
-                    { "name": "Return on Investment", "image": "./augments/goldreserves2.png" }
+                    { "name": "Return on Investment", "image": "./augments/return-on-investment.png" }
                 ]
             },
             {
@@ -284,15 +362,299 @@
         ]
     },
     {
+        "compName": "Crowd Diver Zed",
+        "champs": [
+            "Evelynn", "Jax", "Katarina", "Lux",
+            "Yone", "Zac", "Zed", "Illaoi", "Qiyana"
+        ],
+        "avgPlace": "4.24",
+        "pickRate": "0.05",
+        "winRate": "16.5%",
+        "Top4Rate": "54.3%",
+        "carryChamps": [
+            {
+                "name": "Zed",
+                "items": [
+                    { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
+                    { "name": "Deathblade", "image": "./items/deathblade.avif" },
+                    { "name": "Edge of Night", "image": "./items/edgeofnight.avif" }
+                ]
+            },
+            {
+                "name": "Zac",
+                "items": [
+                    { "name": "Crownguard", "image": "./items/crownguard.avif" },
+                    { "name": "Evenshroud", "image": "./items/evenshroud.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            },
+            {
+                "name": "Yone",
+                "items": [
+                    { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
+                    { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" },
+                    { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
+                ]
+            },
+            {
+                "name": "Illaoi",
+                "items": [
+                    { "name": "Crownguard", "image": "./items/crownguard.avif" },
+                    { "name": "Evenshroud", "image": "./items/evenshroud.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            }
+        ],
+        "bestAugments": [
+            {
+                "name": "Silver Augments",
+                "items": [
+                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
+                    { "name": "Tiny Titans", "image": "./augments/tiny-titans-i.png" },
+                    { "name": "Recombobulator", "image": "./augments/recombobulator-i.png" }
+                ]
+            },
+            {
+                "name": "Golden Augments",
+                "items": [
+                    { "name": "Harmacist II", "image": "./augments/harmacist-ii.png" },
+                    { "name": "Pandora's Item II", "image": "./augments/pandora2.png" },
+                    { "name": "Healing Orbs II", "image": "./augments/healing-orbs-ii.png" }
+                ]
+            },
+            {
+                "name": "Prismatics Augments",
+                "items": [
+                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" },
+                    { "name": "Hedge Fund++", "image": "./augments/richgetricher3.png" },
+                    { "name": "Final Reserves", "image": "./augments/final-reserves-iii.png" }
+                ]
+            }
+        ]
+    },
+    {
+        "compName": "Jazz Miss Fortune",
+        "champs": [
+            "Kennen", "Lillia", "Bard", "Kai'Sa",
+            "Ekko", "Miss Fortune", "Neeko", "Lucian"
+        ],
+        "avgPlace": "4.25",
+        "pickRate": "0.32",
+        "winRate": "13.9%",
+        "Top4Rate": "55.1%",
+        "carryChamps": [
+            {
+                "name": "Miss Fortune",
+                "items": [
+                    { "name": "Deathblade", "image": "./items/deathblade.avif" },
+                    { "name": "Guinsoo's Rageblade", "image": "./items/guinsoosrageblade.avif" },
+                    { "name": "Last Whisper", "image": "./items/lastwhisper.avif" }
+                ]
+            },
+            {
+                "name": "Ekko",
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            },
+            {
+                "name": "Neeko",
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            },
+            {
+                "name": "Bard", 
+                "items": [
+                    { "name": "Adaptive Helm", "image": "./items/adaptivehelm.avif" },
+                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                    { "name": "Blue Buff", "image": "./items/bluebuff.avif" }
+                ]
+            }
+        ],
+        "bestAugments": [
+            {
+                "name": "Silver Augments",
+                "items": [
+                    { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
+                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
+                    { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
+                ]
+            },
+            {
+                "name": "Golden Augments",
+                "items": [
+                    { "name": "That's Jazz, Baby!", "image": "./augments/thats-jazz-baby-ii.png" },
+                    { "name": "Return on Investment", "image": "./augments/return-on-investment.png" },
+                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" }
+                ]
+            },
+            {
+                "name": "Prismatics Augments",
+                "items": [
+                    { "name": "Pandora's Item III", "image": "./augments/pandora3.png" },
+                    { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
+                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
+                ]
+            }
+        ]
+    },
+    {
+        "compName": "Executioner Vex",
+        "champs": [
+            "Pantheon", "Pantheon", "Twitch", "Twitch",
+            "Amumu", "Amumu", "Vex", "Vex"
+        ],
+        "avgPlace": "4.25",
+        "pickRate": "0.31",
+        "winRate": "12.9%",
+        "Top4Rate": "54.8%",
+        "carryChamps": [
+            {
+                "name": "Vex",
+                "items": [
+                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                    { "name": "Rabadon's Deathcap", "image": "./items/rabadonsdeathcap.avif" },
+                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
+                ]
+            },
+            {
+                "name": "Amumu",
+                "items": [
+                    { "name": "Gargoyle Stoneplate", "image": "./items/gargoylestoneplate.avif" },
+                    { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            },
+            {
+                "name": "Twitch",
+                "items": [
+                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
+                    { "name": "Red Buff", "image": "./items/redbuff.avif" }
+                ]
+            },
+            {
+                "name": "Pantheon",
+                "items": [
+                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
+                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                ]
+            }
+        ],
+        "bestAugments": [
+            {
+                "name": "Silver Augments",
+                "items": [
+                    { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
+                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
+                    { "name": "Tiny Titans", "image": "./augments/tiny-titans-i.png" }
+                ]
+            },
+            {
+                "name": "Golden Augments",
+                "items": [
+                    { "name": "Twin Terror II", "image": "./augments/twin-terror-ii.png" },
+                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" },
+                    { "name": "Expose Weakness", "image": "./augments/expose-weakness-ii.png" }
+                ]
+            },
+            {
+                "name": "Prismatics Augments",
+                "items": [
+                    { "name": "Twin Terror III", "image": "./augments/twin-terror-iii.png" },
+                    { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
+                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
+                ]
+            }
+        ]
+    },
+    {
+        "compName": "Emo Annie",
+        "champs": [
+            "Annie", "Kennen", "Lillia", "Amumu",
+            "Ekko", "Neeko", "Vex", "Ahri"
+        ],
+        "avgPlace": "4.26",
+        "pickRate": "0.13",
+        "winRate": "10.8%",
+        "Top4Rate": "55.5%",
+        "carryChamps": [
+            {
+                "name": "Annie",
+                "items": [
+                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                    { "name": "Nashor's Tooth", "image": "./items/nashorstooth.avif" },
+                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
+                ]
+            },
+            {
+                "name": "Amumu",
+                "items": [
+                    { "name": "Gargoyle Stoneplate", "image": "./items/gargoylestoneplate.avif" },
+                    { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" },
+                    { "name": "Ionic Spark", "image": "./items/ionicspark.avif" }
+                ]
+            },
+            {
+                "name": "Vex",
+                "items": [
+                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
+                    { "name": "Blue Buff", "image": "./items/bluebuff.avif" },
+                    { "name": "Rabadon's Deathcap", "image": "./items/rabadonsdeathcap.avif" }
+                ]
+            },
+            {
+                "name": "Ahri",
+                "items": [
+                    { "name": "Blue Buff", "image": "./items/bluebuff.avif" },
+                    { "name": "Nashor's Tooth", "image": "./items/nashorstooth.avif" },
+                    { "name": "Hextech Gunblade", "image": "./items/hextechgunblade.avif" }
+                ]
+            }
+        ],
+        "bestAugments": [
+            {
+                "name": "Silver Augments",
+                "items": [
+                    { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
+                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
+                    { "name": "Tiny Titans", "image": "./augments/tiny-titans-i.png" }
+                ]
+            },
+            {
+                "name": "Golden Augments",
+                "items": [
+                    { "name": "Emotional Connection II", "image": "./augments/emotional-connection-ii.png" },
+                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" },
+                    { "name": "Pandora's Item II", "image": "./augments/pandora2.png" }
+                ]
+            },
+            {
+                "name": "Prismatics Augments",
+                "items": [
+                    { "name": "Jeweled Lotus III", "image": "./augments/jeweled-lotus-iii.png" },
+                    { "name": "Pandora's Item III", "image": "./augments/pandora3.png" },
+                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
+                ]
+            }
+        ]
+    },
+    {
         "compName": "Country Samira",
         "champs": [
             "Tahm Kench", "Katarina", "Amumu", "Samira",
             "Sett", "Urgot", "Vex", "Thresh"
         ],
-        "avgPlace": "4.19",
-        "pickRate": "0.58",
-        "winRate": "12.8%",
-        "Top4Rate": "56.1%",
+        "avgPlace": "4.28",
+        "pickRate": "0.44",
+        "winRate": "11.4%",
+        "Top4Rate": "54.4%",
         "carryChamps": [
             {
                 "name": "Samira",
@@ -339,345 +701,62 @@
             {
                 "name": "Golden Augments",
                 "items": [
-                    { "name": "Jeweled Lotus II", "image": "./augments/jeweled-lotus-ii.png" },
+                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" },
                     { "name": "Pandora's Item II", "image": "./augments/pandora2.png" },
-                    { "name": "Return on Investment", "image": "./augments/goldreserves2.png" }
+                    { "name": "Bounty Hunters", "image": "./augments/bounty-hunters-ii.png" }
                 ]
             },
             {
                 "name": "Prismatics Augments",
                 "items": [
                     { "name": "New Recruit", "image": "./augments/newrecruit3.png" },
-                    { "name": "Jeweled Lotus III", "image": "./augments/jeweled-lotus-iii.png" },
+                    { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
                     { "name": "Pandora's Item III", "image": "./augments/pandora3.png" }
                 ]
             }
         ]
     },
     {
-        "compName": "Pentakill Karthus",
+        "compName": "Crowd Diver Katarina",
         "champs": [
-            "Lillia", "Gnar", "Mordekaiser", "Neeko",
-            "Akali", "Karthus", "Viego", "Yorick"
+            "Evelynn", "Kennen", "Lillia", "Katarina",
+            "Neeko", "Yone", "Zed", "Qiyana"
         ],
-        "avgPlace": "4.21",
-        "pickRate": "0.54",
-        "winRate": "15.6%",
-        "Top4Rate": "55.6%",
+        "avgPlace": "4.30",
+        "pickRate": "0.10",
+        "winRate": "12.6%",
+        "Top4Rate": "54.8%",
         "carryChamps": [
+            
             {
-                "name": "Karthus",
+                "name": "Katarina",
                 "items": [
-                    { "name": "Archangel's Staff", "image": "./items/archangelsstaff.avif" },
                     { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
-                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
-                ]
-            },
-            {
-                "name": "Mordekaiser",
-                "items": [
-                    { "name": "Ionic Spark", "image": "./items/ionicspark.avif" },
-                    { "name": "Crownguard", "image": "./items/crownguard.avif" },
-                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
-                ]
-            },
-            {
-                "name": "Akali",
-                "items": [
-                    { "name": "Pentakill Emblem", "image": "./items/pentakillemblem.avif" },
-                    { "name": "Red Buff", "image": "./items/redbuff.avif" },
+                    { "name": "Hand of Justice", "image": "./items/handofjustice.avif" },
                     { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
                 ]
             },
             {
-                "name": "Viego", 
+                "name": "Zed",
+                "items": [
+                    { "name": "Edge of Night", "image": "./items/edgeofnight.avif" },
+                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
+                    { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
+                ]
+            },
+            {
+                "name": "Yone",
                 "items": [
                     { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
                     { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" },
-                    { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
-                ]
-            }
-        ],
-        "bestAugments": [
-            {
-                "name": "Silver Augments",
-                "items": [
-                    { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
-                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
-                    { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
-                ]
-            },
-            {
-                "name": "Golden Augments",
-                "items": [
-                    { "name": "Twin Terror II", "image": "./augments/twin-terror-ii.png" },
-                    { "name": "Emotional Connection II", "image": "./augments/emotional-connection-ii.png" },
-                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" }
-                ]
-            },
-            {
-                "name": "Prismatics Augments",
-                "items": [
-                    { "name": "Twin Terror III", "image": "./augments/twin-terror-iii.png" },
-                    { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
-                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
-                ]
-            }
-        ]
-    },
-    {
-        "compName": "Disco Twisted Fate",
-        "champs": [
-            "Nami", "Taric", "Gragas", "Ekko",
-            "Blitzcrank", "Twisted Fate", "Illaoi", "Sona", "Ziggs"
-        ],
-        "avgPlace": "4.23",
-        "pickRate": "1.01",
-        "winRate": "14.7%",
-        "Top4Rate": "54.8%",
-        "carryChamps": [
-            {
-                "name": "Twisted Fate",
-                "items": [
-                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
-                    { "name": "Nashor's Tooth", "image": "./items/nashorstooth.avif" },
-                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
-                ]
-            },
-            {
-                "name": "Blitzcrank",
-                "items": [
-                    { "name": "Crownguard", "image": "./items/crownguard.avif" },
-                    { "name": "Ionic Spark", "image": "./items/ionicspark.avif" },
-                    { "name": "Heartsteel", "image": "./items/heartsteel.avif" }
-                ]
-            },
-            {
-                "name": "Ekko",
-                "items": [
-                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
-                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
-                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
-                ]
-            },
-            {
-                "name": "Ziggs",
-                "items": [
-                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
-                    { "name": "Nashor's Tooth", "image": "./items/nashorstooth.avif" },
-                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
-                ]
-            }
-        ],
-        "bestAugments": [
-            {
-                "name": "Silver Augments",
-                "items": [
-                    { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
-                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
-                    { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
-                ]
-            },
-            {
-                "name": "Golden Augments",
-                "items": [
-                    { "name": "Twin Terror II", "image": "./augments/twin-terror-ii.png" },
-                    { "name": "Emotional Connection II", "image": "./augments/emotional-connection-ii.png" },
-                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" }
-                ]
-            },
-            {
-                "name": "Prismatics Augments",
-                "items": [
-                    { "name": "Twin Terror III", "image": "./augments/twin-terror-iii.png" },
-                    { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
-                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
-                ]
-            }
-        ]
-    },
-    {
-        "compName": "Punk Jinx",
-        "champs": [
-            "Jinx", "Vi", "Pantheon", "Twitch",
-            "Amumu", "Neeko", "Vex", "Thresh"
-        ],
-        "avgPlace": "4.23",
-        "pickRate": "0.31",
-        "winRate": "9.9%",
-        "Top4Rate": "56.3%",
-        "carryChamps": [
-            {
-                "name": "Jinx",
-                "items": [
-                    { "name": "Deathblade", "image": "./items/deathblade.avif" },
-                    { "name": "Guinsoo's Rageblade", "image": "./items/guinsoosrageblade.avif" },
-                    { "name": "Last Whisper", "image": "./items/lastwhisper.avif" }
-                ]
-            },
-            {
-                "name": "Pantheon",
-                "items": [
-                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
-                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
-                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
-                ]
-            },
-            {
-                "name": "Twitch",
-                "items": [
-                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
-                    { "name": "Giant Slayer", "image": "./items/giantslayer.avif" },
-                    { "name": "Red Buff", "image": "./items/redbuff.avif" }
-                ]
-            },
-            {
-                "name": "Vi", 
-                "items": [
-                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
-                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
-                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
-                ]
-            }
-        ],
-        "bestAugments": [
-            {
-                "name": "Silver Augments",
-                "items": [
-                    { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
-                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
-                    { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
-                ]
-            },
-            {
-                "name": "Golden Augments",
-                "items": [
-                    { "name": "Twin Terror II", "image": "./augments/twin-terror-ii.png" },
-                    { "name": "Emotional Connection II", "image": "./augments/emotional-connection-ii.png" },
-                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" }
-                ]
-            },
-            {
-                "name": "Prismatics Augments",
-                "items": [
-                    { "name": "Twin Terror III", "image": "./augments/twin-terror-iii.png" },
-                    { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
-                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
-                ]
-            }
-        ]
-    },
-    {
-        "compName": "Jazz Miss Fortune",
-        "champs": [
-            "Kennen", "Lillia", "Bard", "Kai'Sa",
-            "Ekko", "Miss Fortune", "Neeko", "Lucian"
-        ],
-        "avgPlace": "4.28",
-        "pickRate": "0.21",
-        "winRate": "12.5%",
-        "Top4Rate": "54.8%",
-        "carryChamps": [
-            {
-                "name": "Miss Fortune",
-                "items": [
-                    { "name": "Deathblade", "image": "./items/deathblade.avif" },
-                    { "name": "Guinsoo's Rageblade", "image": "./items/guinsoosrageblade.avif" },
-                    { "name": "Last Whisper", "image": "./items/lastwhisper.avif" }
-                ]
-            },
-            {
-                "name": "Ekko",
-                "items": [
-                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
-                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
-                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                    { "name": "Quicksilver", "image": "./items/quicksilver.avif" }
                 ]
             },
             {
                 "name": "Neeko",
                 "items": [
-                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
-                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
-                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
-                ]
-            },
-            {
-                "name": "Bard", 
-                "items": [
-                    { "name": "Adaptive Helm", "image": "./items/adaptivehelm.avif" },
-                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
-                    { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
-                ]
-            }
-        ],
-        "bestAugments": [
-            {
-                "name": "Silver Augments",
-                "items": [
-                    { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
-                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
-                    { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
-                ]
-            },
-            {
-                "name": "Golden Augments",
-                "items": [
-                    { "name": "Twin Terror II", "image": "./augments/twin-terror-ii.png" },
-                    { "name": "Emotional Connection II", "image": "./augments/emotional-connection-ii.png" },
-                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" }
-                ]
-            },
-            {
-                "name": "Prismatics Augments",
-                "items": [
-                    { "name": "Twin Terror III", "image": "./augments/twin-terror-iii.png" },
-                    { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
-                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
-                ]
-            }
-        ]
-    },
-    {
-        "compName": "Bruiser Ezreal",
-        "champs": [
-            "Olaf", "Tahm Kench", "Gragas", "Miss Fortune",
-            "Sett", "Ezreal", "Zac", "Illaoi", "Jhin"
-        ],
-        "avgPlace": "4.33",
-        "pickRate": "0.09",
-        "winRate": "15.9%",
-        "Top4Rate": "51.08%",
-        "carryChamps": [
-            {
-                "name": "Ezreal",
-                "items": [
-                    { "name": "Blue Buff", "image": "./items/bluebuff.avif" },
-                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
-                    { "name": "Red Buff", "image": "./items/redbuff.avif" }
-                ]
-            },
-            {
-                "name": "Illaoi",
-                "items": [
-                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
-                    { "name": "Gargoyle Stoneplate", "image": "./items/gargoylestoneplate.avif" },
-                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
-                ]
-            },
-            {
-                "name": "Jhin",
-                "items": [
-                    { "name": "Blue Buff", "image": "./items/bluebuff.avif" },
-                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
-                    { "name": "Last Whisper", "image": "./items/lastwhisper.avif" }
-                ]
-            },
-            {
-                "name": "Zac", 
-                "items": [
-                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
-                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Ionic Spark", "image": "./items/ionicspark.avif" },
+                    { "name": "Evenshroud", "image": "./items/evenshroud.avif" },
                     { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" }
                 ]
             }
@@ -688,236 +767,23 @@
                 "items": [
                     { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
                     { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
-                    { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
+                    { "name": "Harmacist I", "image": "./augments/harmacist-i.png" }
                 ]
             },
             {
                 "name": "Golden Augments",
                 "items": [
-                    { "name": "Twin Terror II", "image": "./augments/twin-terror-ii.png" },
-                    { "name": "Emotional Connection II", "image": "./augments/emotional-connection-ii.png" },
-                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" }
+                    { "name": "Idealism", "image": "./augments/idealism-ii.png" },
+                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" },
+                    { "name": "Jeweled Lotus II", "image": "./augments/jeweled-lotus-ii.png" }
                 ]
             },
             {
                 "name": "Prismatics Augments",
                 "items": [
-                    { "name": "Twin Terror III", "image": "./augments/twin-terror-iii.png" },
-                    { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
-                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
-                ]
-            }
-        ]
-    },
-    {
-        "compName": "EDM Zed",
-        "champs": [
-            "Evelynn", "Jax", "Katarina", "Lux",
-            "Yone", "Zac", "Zed", "Qiyana"
-        ],
-        "avgPlace": "4.40",
-        "pickRate": "0.05",
-        "winRate": "13.2%",
-        "Top4Rate": "51.5%",
-        "carryChamps": [
-            {
-                "name": "Zed",
-                "items": [
-                    { "name": "Deathblade", "image": "./items/deathblade.avif" },
-                    { "name": "Edge of Night", "image": "./items/edgeofnight.avif" },
-                    { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
-                ]
-            },
-            {
-                "name": "Qiyana",
-                "items": [
-                    { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
-                    { "name": "Edge of Night", "image": "./items/edgeofnight.avif" },
-                    { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
-                ]
-            },
-            {
-                "name": "Zac",
-                "items": [
-                    { "name": "Crownguard", "image": "./items/crownguard.avif" },
-                    { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" },
-                    { "name": "Evenshroud", "image": "./items/evenshroud.avif" }
-                ]
-            },
-            {
-                "name": "Illaoi", 
-                "items": [
-                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
-                    { "name": "Heartsteel", "image": "./items/heartsteel.avif" },
-                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
-                ]
-            }
-        ],
-        "bestAugments": [
-            {
-                "name": "Silver Augments",
-                "items": [
-                    { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
-                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
-                    { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
-                ]
-            },
-            {
-                "name": "Golden Augments",
-                "items": [
-                    { "name": "Twin Terror II", "image": "./augments/twin-terror-ii.png" },
-                    { "name": "Emotional Connection II", "image": "./augments/emotional-connection-ii.png" },
-                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" }
-                ]
-            },
-            {
-                "name": "Prismatics Augments",
-                "items": [
-                    { "name": "Twin Terror III", "image": "./augments/twin-terror-iii.png" },
-                    { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
-                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
-                ]
-            }
-        ]
-    },
-    {
-        "compName": "Guardian Ahri",
-        "champs": [
-            "Lillia", "Kai'Sa", "Seraphine", "Neeko",
-            "Ahri", "Akali", "Thresh", "Sona"
-        ],
-        "avgPlace": "4.43",
-        "pickRate": "0.04",
-        "winRate": "10.1%",
-        "Top4Rate": "52.1%",
-        "carryChamps": [
-            {
-                "name": "Ahri",
-                "items": [
-                    { "name": "Blue Buff", "image": "./items/bluebuff.avif" },
-                    { "name": "Hextech Gunblade", "image": "./items/hextechgunblade.avif" },
-                    { "name": "Nashor's Tooth", "image": "./items/nashorstooth.avif" }
-                ]
-            },
-            {
-                "name": "Akali",
-                "items": [
-                    { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
-                    { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" },
-                    { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
-                ]
-            },
-            {
-                "name": "Neeko",
-                "items": [
-                    { "name": "Gargoyle Stoneplate", "image": "./items/gargoylestoneplate.avif" },
-                    { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" },
-                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
-                ]
-            },
-            {
-                "name": "Amumu",
-                "items": [
-                    { "name": "Gargoyle Stoneplate", "image": "./items/gargoylestoneplate.avif" },
-                    { "name": "Bramble Vest", "image": "./items/bramblevest.avif" },
-                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" }
-                ]
-            }
-        ],
-        "bestAugments": [
-            {
-                "name": "Silver Augments",
-                "items": [
-                    { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
-                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
-                    { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
-                ]
-            },
-            {
-                "name": "Golden Augments",
-                "items": [
-                    { "name": "Twin Terror II", "image": "./augments/twin-terror-ii.png" },
-                    { "name": "Emotional Connection II", "image": "./augments/emotional-connection-ii.png" },
-                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" }
-                ]
-            },
-            {
-                "name": "Prismatics Augments",
-                "items": [
-                    { "name": "Twin Terror III", "image": "./augments/twin-terror-iii.png" },
-                    { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
-                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
-                ]
-            }
-        ]
-    },
-    {
-        "compName": "Edgelord Riven",
-        "champs": [
-            "Garen", "Kayle", "Mordekaiser", "Riven",
-            "Yone", "Caitlyn", "Viego", "Kayn"
-        ],
-        "avgPlace": "4.46",
-        "pickRate": "0.57",
-        "winRate": "15.3%",
-        "Top4Rate": "50.4%",
-        "carryChamps": [
-            {
-                "name": "Riven",
-                "items": [
-                    { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
-                    { "name": "Quicksilver", "image": "./items/quicksilver.avif" },
-                    { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" }
-                ]
-            },
-            {
-                "name": "Yone",
-                "items": [
-                    { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
-                    { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" },
-                    { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
-                ]
-            },
-            {
-                "name": "Mordekaiser",
-                "items": [
-                    { "name": "Crownguard", "image": "./items/crownguard.avif" },
-                    { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" },
-                    { "name": "Evenshroud", "image": "./items/evenshroud.avif" }
-                ]
-            },
-            {
-                "name": "Viego", 
-                "items": [
-                    { "name": "8-bit Emblem", "image": "./items/8-bitemblem.avif" },
-                    { "name": "Edge of Night", "image": "./items/edgeofnight.avif" },
-                    { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
-                ]
-            }
-        ],
-        "bestAugments": [
-            {
-                "name": "Silver Augments",
-                "items": [
-                    { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
-                    { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
-                    { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
-                ]
-            },
-            {
-                "name": "Golden Augments",
-                "items": [
-                    { "name": "Twin Terror II", "image": "./augments/twin-terror-ii.png" },
-                    { "name": "Emotional Connection II", "image": "./augments/emotional-connection-ii.png" },
-                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" }
-                ]
-            },
-            {
-                "name": "Prismatics Augments",
-                "items": [
-                    { "name": "Twin Terror III", "image": "./augments/twin-terror-iii.png" },
-                    { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
-                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
+                    { "name": "New Recruit", "image": "./augments/newrecruit3.png" },
+                    { "name": "Hedge Fund++", "image": "./augments/richgetricher3.png" },
+                    { "name": "Final Reserves", "image": "./augments/final-reserves-iii.png" }
                 ]
             }
         ]
@@ -928,15 +794,15 @@
             "Olaf", "Gragas", "Sett", "Akali",
             "Karthus", "Zac", "Illaoi", "Yorick"
         ],
-        "avgPlace": "4.48",
-        "pickRate": "0.11",
-        "winRate": "10.4%",
-        "Top4Rate": "51.1%",
+        "avgPlace": "4.39",
+        "pickRate": "0.19",
+        "winRate": "11.3%",
+        "Top4Rate": "52.9%",
         "carryChamps": [
             {
                 "name": "Olaf",
                 "items": [
-                    { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
+                    { "name": "Sterak's Gage", "image": "./items/steraksgage.avif" },
                     { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" },
                     { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" }
                 ]
@@ -952,9 +818,9 @@
             {
                 "name": "Zac",
                 "items": [
-                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Evenshroud", "image": "./items/evenshroud.avif" },
                     { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" },
-                    { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
+                    { "name": "Redemption", "image": "./items/redemption.avif" }
                 ]
             },
             {
@@ -972,68 +838,68 @@
                 "items": [
                     { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
                     { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
-                    { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
+                    { "name": "Indomitable Will", "image": "./augments/indomitable-will-i.png" }
                 ]
             },
             {
                 "name": "Golden Augments",
                 "items": [
-                    { "name": "Twin Terror II", "image": "./augments/twin-terror-ii.png" },
-                    { "name": "Emotional Connection II", "image": "./augments/emotional-connection-ii.png" },
-                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" }
+                    { "name": "Too Big to Fail", "image": "./augments/too-big-to-fail-ii.png" },
+                    { "name": "Gargantuan Resolve", "image": "./augments/gargantuan-resolve-ii.png" },
+                    { "name": "Heavy Hitters", "image": "./augments/heavy-hitters-ii.png" }
                 ]
             },
             {
                 "name": "Prismatics Augments",
                 "items": [
-                    { "name": "Twin Terror III", "image": "./augments/twin-terror-iii.png" },
-                    { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
+                    { "name": "Radiant Relics", "image": "./augments/radiantrelic-iii.png" },
+                    { "name": "Pandora's Item III", "image": "./augments/pandora3.png" },
                     { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
                 ]
             }
         ]
     },
     {
-        "compName": "Pentakill Karthus Viego",
+        "compName": "Pentakill Karthus",
         "champs": [
             "Gnar", "Kayle", "Mordekaiser", "Akali",
             "Karthus", "Viego", "Kayn", "Yorick"
         ],
-        "avgPlace": "4.50",
-        "pickRate": "0.46",
-        "winRate": "11.7%",
-        "Top4Rate": "49.9%",
+        "avgPlace": "4.42",
+        "pickRate": "0.47",
+        "winRate": "11.6%",
+        "Top4Rate": "51.4%",
         "carryChamps": [
             {
                 "name": "Karthus",
                 "items": [
-                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
                     { "name": "Archangel's Staff", "image": "./items/archangelsstaff.avif" },
+                    { "name": "Jeweled Gauntlet", "image": "./items/jeweledgauntlet.avif" },
                     { "name": "Spear of Shojin", "image": "./items/spearofshojin.avif" }
-                ]
-            },
-            {
-                "name": "Viego",
-                "items": [
-                    { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
-                    { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" },
-                    { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
                 ]
             },
             {
                 "name": "Mordekaiser",
                 "items": [
                     { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" },
-                    { "name": "Dragon's Claw", "image": "./items/dragonsclaw.avif" },
+                    { "name": "Crownguard", "image": "./items/crownguard.avif" },
                     { "name": "Warmog's Armor", "image": "./items/warmogsarmor.avif" }
                 ]
             },
             {
-                "name": "Yorick", 
+                "name": "Kayle",
+                "items": [
+                    { "name": "Guinsoo's Rageblade", "image": "./items/guinsoosrageblade.avif" },
+                    { "name": "Guinsoo's Rageblade", "image": "./items/guinsoosrageblade.avif" },
+                    { "name": "Hextech Gunblade", "image": "./items/hextechgunblade.avif" }
+                ]
+            },
+            {
+                "name": "Viego", 
                 "items": [
                     { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
-                    { "name": "Sterak's Gage", "image": "./items/steraksgage.avif" },
-                    { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" }
+                    { "name": "Titan's Resolve", "image": "./items/titansresolve.avif" },
+                    { "name": "Hand of Justice", "image": "./items/handofjustice.avif" }
                 ]
             }
         ],
@@ -1041,7 +907,7 @@
             {
                 "name": "Silver Augments",
                 "items": [
-                    { "name": "Team Building", "image": "./augments/building-an-army-i.png" },
+                    { "name": "Tiny Titans", "image": "./augments/tiny-titans-i.png" },
                     { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
                     { "name": "Blistering Strikes", "image": "./augments/red-buff-i.png" }
                 ]
@@ -1049,19 +915,90 @@
             {
                 "name": "Golden Augments",
                 "items": [
-                    { "name": "Twin Terror II", "image": "./augments/twin-terror-ii.png" },
-                    { "name": "Emotional Connection II", "image": "./augments/emotional-connection-ii.png" },
-                    { "name": "Heroic Grab Bag", "image": "./augments/heroic-grab-bag-ii.png" }
+                    { "name": "Metalheads", "image": "./augments/metalheads-ii.png" },
+                    { "name": "Pandora's Item II", "image": "./augments/pandora2.png" },
+                    { "name": "Big Grab Bag", "image": "./augments/grab-bag-ii.png" }
                 ]
             },
             {
                 "name": "Prismatics Augments",
                 "items": [
-                    { "name": "Twin Terror III", "image": "./augments/twin-terror-iii.png" },
-                    { "name": "Prismatic Ticket", "image": "./augments/goldenticket3.png" },
+                    { "name": "Radiant Relics", "image": "./augments/radiantrelic-iii.png" },
+                    { "name": "Pandora's Item III", "image": "./augments/pandora3.png" },
                     { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
                 ]
             }
         ]
-    }  
+        },
+        {
+            "compName": "EDM Ezreal",
+            "champs": [
+                "Bard", "Miss Fortune", "Sett", "Yone",
+                "Ezreal", "Poppy", "Zac", "Zed"
+            ],
+            "avgPlace": "4.47",
+            "pickRate": "0.40",
+            "winRate": "16.6%",
+            "Top4Rate": "49.5%",
+            "carryChamps": [
+                {
+                    "name": "Ezreal",
+                    "items": [
+                        { "name": "Blue Buff", "image": "./items/bluebuff.avif" },
+                        { "name": "Infinity Edge", "image": "./items/infinityedge.avif" },
+                        { "name": "Red Buff", "image": "./items/redbuff.avif" }
+                    ]
+                },
+                {
+                    "name": "Zed",
+                    "items": [
+                        { "name": "Bloodthirster", "image": "./items/bloodthirster.avif" },
+                        { "name": "Hand of Justice", "image": "./items/handofjustice.avif" },
+                        { "name": "Edge of Night", "image": "./items/edgeofnight.avif" }
+                    ]
+                },
+                {
+                    "name": "Zac",
+                    "items": [
+                        { "name": "Crownguard", "image": "./items/crownguard.avif" },
+                        { "name": "Evenshroud", "image": "./items/evenshroud.avif" },
+                        { "name": "Redemption", "image": "./items/redemption.avif" }
+                    ]
+                },
+                {
+                    "name": "Sett", 
+                    "items": [
+                        { "name": "Crownguard", "image": "./items/crownguard.avif" },
+                        { "name": "Evenshroud", "image": "./items/evenshroud.avif" },
+                        { "name": "Sunfire Cape", "image": "./items/sunfirecape.avif" }
+                    ]
+                }
+            ],
+            "bestAugments": [
+                {
+                    "name": "Silver Augments",
+                    "items": [
+                        { "name": "Tiny Titans", "image": "./augments/tiny-titans-i.png" },
+                        { "name": "Pandora's Items", "image": "./augments/pandora1.png" },
+                        { "name": "Vapirism I", "image": "./augments/vampirism-i.png" }
+                    ]
+                },
+                {
+                    "name": "Golden Augments",
+                    "items": [
+                        { "name": "Big Grab Bag", "image": "./augments/grab-bag-ii.png" },
+                        { "name": "Harmacist II", "image": "./augments/harmacist-ii.png" },
+                        { "name": "You Have My Sword", "image": "./augments/you-have-my-sword-ii.png" }
+                    ]
+                },
+                {
+                    "name": "Prismatics Augments",
+                    "items": [
+                        { "name": "Radiant Relics", "image": "./augments/radiantrelic-iii.png" },
+                        { "name": "Pandora's Item III", "image": "./augments/pandora3.png" },
+                        { "name": "New Recruit", "image": "./augments/newrecruit3.png" }
+                    ]
+                }
+            ]
+        }
 ]
